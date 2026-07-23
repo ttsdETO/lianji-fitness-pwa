@@ -103,6 +103,6 @@ No real credential, private key, `.env`, account identifier, personal email, pho
 - AI coach smoke: passed with an intercepted mock endpoint; no real API Key was used.
 - Production dependency audit: passed.
 - Post-remediation secret and privacy rescan: passed for source and production build.
-- File and line coverage: 82 repository-candidate files, including 80 text files / 16,110 text lines and 2 binary image assets.
+- File and line coverage: 82 repository-candidate files, including 80 text files / 16,114 text lines and 2 binary image assets.
 
 This is a static review plus build/test verification. It does not replace runtime penetration testing or the privacy terms of optional third-party services.

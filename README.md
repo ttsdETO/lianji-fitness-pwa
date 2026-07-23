@@ -22,7 +22,7 @@
 
 ## 安装依赖
 
-需要 Node.js 20.19+ 或 22.12+。
+需要 Node.js 20.19+ 或 22.13+。
 
 ```bash
 pnpm install

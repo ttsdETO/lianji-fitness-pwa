@@ -3,7 +3,7 @@
 ## 运行平台
 
 - 浏览器端单页 PWA；应用运行时不依赖后端或数据库。
-- Node.js 用于开发、构建和测试。`README.md` 要求 Node.js `20.19+` 或 `22.12+`，仓库目前没有 `.nvmrc`、`.node-version` 或 Volta 固定版本配置。
+- Node.js 用于开发、构建和测试。`README.md` 要求 Node.js `20.19+` 或 `22.13+`，仓库目前没有 `.nvmrc`、`.node-version` 或 Volta 固定版本配置。
 - 包管理器为 pnpm；`pnpm-lock.yaml` 的 lockfile 版本为 9，`pnpm-workspace.yaml` 定义工作区。
 
 ## 语言与框架
