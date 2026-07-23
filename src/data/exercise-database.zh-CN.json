@@ -1,0 +1,6567 @@
+{
+  "version": "1.1.0",
+  "locale": "zh-CN",
+  "scope": "家庭徒手、3kg/5kg哑铃、瑜伽垫、单杠及少量牢固家具条件下的训练动作数据库",
+  "disclaimer": [
+    "本数据库用于训练记录与动作教育，不替代医生、物理治疗师或现场教练的诊断。",
+    "肌肉酸胀可以是正常训练反应；关节刺痛、锐痛、麻木、明显肿胀、失去稳定或胸痛头晕时应停止训练并寻求监护人及专业帮助。",
+    "未成年人训练应优先动作质量、适当负荷、循序渐进和充分恢复。"
+  ],
+  "searchableFields": [
+    "name",
+    "aliases",
+    "category",
+    "movementPatterns",
+    "equipment",
+    "difficulty",
+    "primaryMuscles",
+    "secondaryMuscles",
+    "bodyParts",
+    "effects",
+    "tags"
+  ],
+  "exercises": [
+    {
+      "id": "wall-push-up",
+      "name": "墙面俯卧撑",
+      "aliases": [
+        "站姿俯卧撑",
+        "墙壁俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "核心稳定"
+      ],
+      "equipment": [
+        "墙面"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "学习俯卧撑路径",
+        "建立上肢推力",
+        "练习肩胛控制"
+      ],
+      "steps": [
+        "面对墙站立，双手略宽于肩撑墙",
+        "双脚向后退到身体略微倾斜",
+        "收紧腹部与臀部，身体保持直线",
+        "弯肘让胸口靠近墙面",
+        "推墙回到起点"
+      ],
+      "cues": [
+        "胸口去找墙，不是头去点墙",
+        "肘部与躯干约30～45°",
+        "全程把墙推远"
+      ],
+      "commonMistakes": [
+        "塌腰",
+        "耸肩",
+        "只弯脖子不降胸",
+        "手放得过高或过宽"
+      ],
+      "safetyNotes": [
+        "墙面与地面需防滑；肩、腕出现刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "新手",
+        "徒手",
+        "俯卧撑进阶"
+      ],
+      "regressions": [],
+      "progressions": [
+        "incline-push-up"
+      ]
+    },
+    {
+      "id": "incline-push-up",
+      "name": "斜板俯卧撑",
+      "aliases": [
+        "上斜俯卧撑",
+        "高位俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "核心稳定"
+      ],
+      "equipment": [
+        "牢固桌沿或固定台面"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束",
+        "前锯肌",
+        "腹直肌"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩",
+        "手臂",
+        "核心"
+      ],
+      "effects": [
+        "建立完整幅度俯卧撑",
+        "增强胸肩推力",
+        "改善躯干稳定"
+      ],
+      "steps": [
+        "双手撑在不会滑动或翻倒的台面上",
+        "双脚后退，头肩髋踝成直线",
+        "吸气并控制下降，让胸口接近台面",
+        "肘部保持约30～45°",
+        "呼气推起，回到手臂伸直"
+      ],
+      "cues": [
+        "台面越低越难",
+        "胸、髋一起升降",
+        "每次深度一致"
+      ],
+      "commonMistakes": [
+        "塌腰或撅臀",
+        "只点头不降胸",
+        "肘部横向张开",
+        "台面不稳"
+      ],
+      "safetyNotes": [
+        "不要使用会滑动的椅子；肩关节内刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "8～12",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "徒手",
+        "俯卧撑进阶",
+        "完整幅度"
+      ],
+      "regressions": [
+        "wall-push-up"
+      ],
+      "progressions": [
+        "knee-push-up",
+        "standard-push-up"
+      ]
+    },
+    {
+      "id": "knee-push-up",
+      "name": "跪姿俯卧撑",
+      "aliases": [
+        "屈膝俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "核心稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "缩短杠杆以练习完整幅度",
+        "增强胸肩推力"
+      ],
+      "steps": [
+        "双膝跪垫，双手略宽于肩",
+        "从头、肩、髋到膝保持直线",
+        "弯肘下降，让胸口接近地面",
+        "保持腹部收紧",
+        "推地回到起点"
+      ],
+      "cues": [
+        "身体绕膝盖整体转动",
+        "胸口落在双手之间",
+        "不要坐回脚后跟"
+      ],
+      "commonMistakes": [
+        "屁股后坐",
+        "塌腰",
+        "深度越来越浅",
+        "肘部外张"
+      ],
+      "safetyNotes": [
+        "膝下垫软垫；腕或肩刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "6～15",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "徒手",
+        "俯卧撑进阶"
+      ],
+      "regressions": [
+        "incline-push-up"
+      ],
+      "progressions": [
+        "standard-push-up"
+      ]
+    },
+    {
+      "id": "standard-push-up",
+      "name": "标准俯卧撑",
+      "aliases": [
+        "俯卧撑",
+        "伏地挺身"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "核心稳定"
+      ],
+      "equipment": [
+        "徒手",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束",
+        "前锯肌",
+        "腹直肌",
+        "臀肌"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩",
+        "手臂",
+        "核心"
+      ],
+      "effects": [
+        "增强相对推力",
+        "增加胸肩臂肌肉量",
+        "提高躯干整体稳定"
+      ],
+      "steps": [
+        "双手略宽于肩，双脚后伸",
+        "收紧腹部和臀部，身体成直线",
+        "吸气控制下降，胸口接近地面",
+        "肘部与躯干约30～45°",
+        "呼气推起到手臂伸直"
+      ],
+      "cues": [
+        "把地面推远",
+        "胸和髋同时起落",
+        "下巴微收，视线看前下方"
+      ],
+      "commonMistakes": [
+        "塌腰",
+        "撅臀",
+        "半程动作",
+        "头先点地",
+        "耸肩"
+      ],
+      "safetyNotes": [
+        "动作变形即结束；肩、腕、胸口出现锐痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "5～15",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "徒手",
+        "相对力量",
+        "复合动作"
+      ],
+      "regressions": [
+        "incline-push-up",
+        "knee-push-up"
+      ],
+      "progressions": [
+        "close-grip-push-up"
+      ]
+    },
+    {
+      "id": "eccentric-push-up",
+      "name": "离心俯卧撑",
+      "aliases": [
+        "负向俯卧撑",
+        "慢放俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "离心控制"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束",
+        "核心"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "强化俯卧撑底部力量",
+        "学习控制下降",
+        "帮助过渡到完整俯卧撑"
+      ],
+      "steps": [
+        "从标准俯卧撑顶端开始",
+        "用4～6秒缓慢下降",
+        "胸口接近地面后双膝落地",
+        "用跪姿回到顶端",
+        "重新伸直双腿再做下一次"
+      ],
+      "cues": [
+        "下降越均匀越好",
+        "身体始终成直线",
+        "不要在底部硬挣扎"
+      ],
+      "commonMistakes": [
+        "前半程很慢后半程直接坠落",
+        "塌腰",
+        "下降深度不足"
+      ],
+      "safetyNotes": [
+        "无法控制下降时结束该组；肩关节疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "3～6",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "俯卧撑进阶",
+        "离心"
+      ],
+      "regressions": [
+        "incline-push-up"
+      ],
+      "progressions": [
+        "standard-push-up"
+      ]
+    },
+    {
+      "id": "close-grip-push-up",
+      "name": "窄距俯卧撑",
+      "aliases": [
+        "钻石俯卧撑",
+        "近距俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "肘伸"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "肱三头肌"
+      ],
+      "secondaryMuscles": [
+        "胸大肌",
+        "三角肌前束",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "手臂",
+        "胸",
+        "肩"
+      ],
+      "effects": [
+        "增强肱三头肌与近距推力",
+        "提高锁定能力"
+      ],
+      "steps": [
+        "双手放在肩宽或略窄位置",
+        "身体保持直线",
+        "弯肘下降，肘部贴近身体",
+        "胸口接近双手",
+        "推起至手臂伸直"
+      ],
+      "cues": [
+        "窄距不等于双手必须挤成菱形",
+        "肘部向后走",
+        "手腕不舒服就稍微加宽"
+      ],
+      "commonMistakes": [
+        "手距过窄导致腕痛",
+        "肘部外翻",
+        "塌腰",
+        "只做半程"
+      ],
+      "safetyNotes": [
+        "先具备稳定标准俯卧撑能力；腕肘刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "5～12",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱三头肌",
+        "胸",
+        "徒手"
+      ],
+      "regressions": [
+        "standard-push-up"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "pike-push-up",
+      "name": "屈体俯卧撑",
+      "aliases": [
+        "倒V俯卧撑",
+        "派克俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "垂直推",
+        "核心稳定"
+      ],
+      "equipment": [
+        "徒手",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌前束"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "胸大肌上部",
+        "斜方肌",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "增强肩部推力",
+        "为倒立类动作打基础"
+      ],
+      "steps": [
+        "双手撑地，臀部抬高成倒V形",
+        "双脚根据柔韧性前移",
+        "弯肘让头部向双手前方下降",
+        "保持前臂尽量接近竖直",
+        "推地回到起点"
+      ],
+      "cues": [
+        "头去双手前方，不是垂直砸向地面",
+        "臀部保持高位",
+        "肩膀主动推地"
+      ],
+      "commonMistakes": [
+        "肘部横向打开",
+        "臀部掉下变成普通俯卧撑",
+        "头落在双手后方"
+      ],
+      "safetyNotes": [
+        "颈部不要承重；肩关节出现夹痛时改为斜板俯卧撑"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "6～10",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩",
+        "徒手",
+        "垂直推"
+      ],
+      "regressions": [
+        "incline-push-up"
+      ],
+      "progressions": [
+        "feet-elevated-pike-push-up"
+      ]
+    },
+    {
+      "id": "feet-elevated-pike-push-up",
+      "name": "抬脚屈体俯卧撑",
+      "aliases": [
+        "高位派克俯卧撑"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "垂直推"
+      ],
+      "equipment": [
+        "牢固低台"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌前束"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "胸大肌上部",
+        "斜方肌",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "进一步提高肩部相对力量",
+        "增加垂直推刺激"
+      ],
+      "steps": [
+        "双脚放在牢固低台上，双手撑地",
+        "臀部抬高，让躯干更接近竖直",
+        "弯肘让头向双手前方下降",
+        "控制到底部",
+        "推回起点"
+      ],
+      "cues": [
+        "平台越高越难",
+        "保持核心收紧",
+        "每次头部路径一致"
+      ],
+      "commonMistakes": [
+        "平台不稳",
+        "颈部下压",
+        "塌腰",
+        "幅度过浅"
+      ],
+      "safetyNotes": [
+        "仅在普通屈体俯卧撑稳定无痛后使用"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "4～8",
+        "restSeconds": 150,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩",
+        "徒手",
+        "进阶"
+      ],
+      "regressions": [
+        "pike-push-up"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-floor-press",
+      "name": "哑铃地板卧推",
+      "aliases": [
+        "地板哑铃卧推"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推"
+      ],
+      "equipment": [
+        "一对哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "增加胸肌和肱三头肌训练量",
+        "学习稳定哑铃推举"
+      ],
+      "steps": [
+        "仰卧，双膝弯曲，双脚踩地",
+        "哑铃位于胸部两侧，掌心略相对",
+        "缓慢下降至上臂轻触地面",
+        "短暂停顿",
+        "推起至手臂伸直但不猛撞哑铃"
+      ],
+      "cues": [
+        "肩胛轻轻后收下沉",
+        "肘部与躯干约30～45°",
+        "手腕保持中立"
+      ],
+      "commonMistakes": [
+        "肘部完全横向张开",
+        "手腕向后折",
+        "哑铃互相猛撞",
+        "耸肩"
+      ],
+      "safetyNotes": [
+        "起身和放下哑铃时避免砸到脸或胸；肩前侧疼痛时减小幅度"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "哑铃",
+        "复合动作"
+      ],
+      "regressions": [],
+      "progressions": [
+        "single-arm-floor-press",
+        "dumbbell-squeeze-press"
+      ]
+    },
+    {
+      "id": "single-arm-floor-press",
+      "name": "单臂哑铃地板卧推",
+      "aliases": [
+        "单手地板卧推"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "抗旋转"
+      ],
+      "equipment": [
+        "单只哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束",
+        "腹斜肌"
+      ],
+      "bodyParts": [
+        "胸",
+        "手臂",
+        "核心"
+      ],
+      "effects": [
+        "训练单侧推力",
+        "提高抗旋转核心能力",
+        "发现左右差异"
+      ],
+      "steps": [
+        "仰卧，双脚踩地",
+        "一手持哑铃，另一手放在腹部或地面",
+        "保持骨盆和胸廓不旋转",
+        "下降至上臂轻触地面",
+        "推回起点，完成一侧后换边"
+      ],
+      "cues": [
+        "肋骨向下收",
+        "两侧肩胛都稳定贴地",
+        "不要让身体被哑铃拉歪"
+      ],
+      "commonMistakes": [
+        "躯干旋转",
+        "脚离地",
+        "肩膀耸起",
+        "动作过快"
+      ],
+      "safetyNotes": [
+        "重量从轻开始；腰或肩不适时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧8～15",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "哑铃",
+        "核心",
+        "单侧"
+      ],
+      "regressions": [
+        "dumbbell-floor-press"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-squeeze-press",
+      "name": "哑铃挤压卧推",
+      "aliases": [
+        "对握夹胸卧推"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "水平推",
+        "水平内收"
+      ],
+      "equipment": [
+        "一对哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "三角肌前束"
+      ],
+      "bodyParts": [
+        "胸",
+        "手臂"
+      ],
+      "effects": [
+        "增加胸肌持续张力",
+        "在轻重量下提高胸部刺激"
+      ],
+      "steps": [
+        "仰卧，双手持哑铃并将哑铃内侧贴紧",
+        "持续向内挤压两只哑铃",
+        "一起下降到胸前",
+        "保持挤压并推起",
+        "顶端不完全放松"
+      ],
+      "cues": [
+        "全程把哑铃互相夹紧",
+        "肘部靠近身体",
+        "动作缓慢"
+      ],
+      "commonMistakes": [
+        "只推不夹",
+        "耸肩",
+        "手腕折叠",
+        "下降失控"
+      ],
+      "safetyNotes": [
+        "哑铃需握稳，避免滑落；肩前侧疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "胸",
+        "哑铃",
+        "轻重量增肌"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-overhead-press",
+      "name": "站姿哑铃推举",
+      "aliases": [
+        "哑铃肩推",
+        "过头推举"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "垂直推"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌前束",
+        "三角肌中束"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "斜方肌上部",
+        "前锯肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "肩",
+        "手臂",
+        "核心"
+      ],
+      "effects": [
+        "增强肩部推力",
+        "增加肩部肌肉量",
+        "训练躯干稳定"
+      ],
+      "steps": [
+        "双脚与髋同宽，哑铃置于肩旁",
+        "收紧腹部与臀部，肋骨不过度外翻",
+        "向上推举至手臂接近伸直",
+        "哑铃位于头顶上方",
+        "控制下降回肩旁"
+      ],
+      "cues": [
+        "屁股夹紧",
+        "头顶向上延伸",
+        "哑铃走直线"
+      ],
+      "commonMistakes": [
+        "塌腰后仰",
+        "耸肩过度",
+        "哑铃向前漂",
+        "用腿弹起"
+      ],
+      "safetyNotes": [
+        "重量较轻起步；腰部或肩关节疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "8～15",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩",
+        "哑铃",
+        "垂直推"
+      ],
+      "regressions": [],
+      "progressions": [
+        "single-arm-overhead-press"
+      ]
+    },
+    {
+      "id": "single-arm-overhead-press",
+      "name": "单臂哑铃推举",
+      "aliases": [
+        "单手肩推"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "垂直推",
+        "抗侧屈",
+        "抗旋转"
+      ],
+      "equipment": [
+        "单只哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "三角肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌",
+        "腹斜肌",
+        "臀肌"
+      ],
+      "bodyParts": [
+        "肩",
+        "手臂",
+        "核心"
+      ],
+      "effects": [
+        "训练单侧肩部力量",
+        "增强核心抗侧屈能力"
+      ],
+      "steps": [
+        "站稳后将一只哑铃放在肩旁",
+        "收紧腹部与臀部",
+        "向上推至手臂接近伸直",
+        "保持身体不向另一侧歪",
+        "控制下降，完成后换边"
+      ],
+      "cues": [
+        "身体像被夹在两块玻璃之间",
+        "肋骨向下",
+        "手腕叠在肘上"
+      ],
+      "commonMistakes": [
+        "身体侧倾",
+        "腰部后仰",
+        "用腿蹬地",
+        "肩膀耸起"
+      ],
+      "safetyNotes": [
+        "左右使用相同次数；腰或肩刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧8～15",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩",
+        "哑铃",
+        "核心",
+        "单侧"
+      ],
+      "regressions": [
+        "dumbbell-overhead-press"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "name": "哑铃侧平举",
+      "aliases": [
+        "侧平举"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "肩外展"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌中束"
+      ],
+      "secondaryMuscles": [
+        "斜方肌上部",
+        "冈上肌"
+      ],
+      "bodyParts": [
+        "肩"
+      ],
+      "effects": [
+        "增加肩部视觉宽度",
+        "强化肩外展控制"
+      ],
+      "steps": [
+        "双脚站稳，哑铃位于身体两侧",
+        "手肘微屈",
+        "沿身体斜前方抬起双臂",
+        "抬到接近肩高或可控高度",
+        "缓慢下降"
+      ],
+      "cues": [
+        "想象用肘部带动",
+        "肩膀远离耳朵",
+        "宁轻勿甩"
+      ],
+      "commonMistakes": [
+        "耸肩",
+        "甩腰",
+        "手臂抬得过高",
+        "倒水式内旋"
+      ],
+      "safetyNotes": [
+        "肩关节出现夹痛时降低高度或停止；3 kg过重可改用水瓶"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "8～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩",
+        "三角肌中束",
+        "哑铃",
+        "外形"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-front-raise",
+      "name": "哑铃前平举",
+      "aliases": [
+        "前平举"
+      ],
+      "category": "上肢推",
+      "movementPatterns": [
+        "肩屈曲"
+      ],
+      "equipment": [
+        "一对轻哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌前束"
+      ],
+      "secondaryMuscles": [
+        "胸大肌上部",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "肩"
+      ],
+      "effects": [
+        "增强肩部前侧控制",
+        "补充肩屈曲训练"
+      ],
+      "steps": [
+        "双手持轻哑铃置于大腿前方",
+        "腹部收紧",
+        "双臂交替或同时抬到肩高",
+        "短暂停顿",
+        "缓慢下降"
+      ],
+      "cues": [
+        "手腕保持中立",
+        "身体不后仰",
+        "只抬到无痛范围"
+      ],
+      "commonMistakes": [
+        "甩动身体",
+        "耸肩",
+        "抬得过高",
+        "重量过大"
+      ],
+      "safetyNotes": [
+        "前束通常已从俯卧撑和推举获得大量刺激，不必高量训练"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩",
+        "哑铃",
+        "辅助动作"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "bent-over-reverse-fly",
+      "name": "俯身哑铃反向飞鸟",
+      "aliases": [
+        "反向飞鸟",
+        "后束飞鸟"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "水平外展",
+        "肩胛后缩"
+      ],
+      "equipment": [
+        "一对轻哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌后束"
+      ],
+      "secondaryMuscles": [
+        "菱形肌",
+        "斜方肌中下束",
+        "冈下肌"
+      ],
+      "bodyParts": [
+        "肩后侧",
+        "上背"
+      ],
+      "effects": [
+        "增加肩后束和上背肌肉量",
+        "改善推拉平衡"
+      ],
+      "steps": [
+        "髋部向后推，躯干前倾，背部平直",
+        "手臂自然下垂，手肘微屈",
+        "向两侧展开双臂",
+        "肩胛骨轻轻靠拢",
+        "缓慢回到起点"
+      ],
+      "cues": [
+        "用肘部向外打开",
+        "脖子放松",
+        "重量宁轻"
+      ],
+      "commonMistakes": [
+        "耸肩",
+        "甩动身体",
+        "把动作做成划船",
+        "腰背弯曲"
+      ],
+      "safetyNotes": [
+        "肩后侧酸胀正常；关节深处刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩后束",
+        "上背",
+        "哑铃",
+        "体态"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "passive-hang",
+      "name": "被动悬垂",
+      "aliases": [
+        "放松悬垂",
+        "死挂"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "悬垂",
+        "握力"
+      ],
+      "equipment": [
+        "单杠"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "前臂屈肌"
+      ],
+      "secondaryMuscles": [
+        "背阔肌",
+        "肩带稳定肌"
+      ],
+      "bodyParts": [
+        "前臂",
+        "肩带"
+      ],
+      "effects": [
+        "训练握力",
+        "熟悉悬垂",
+        "提供轻度肩带牵伸"
+      ],
+      "steps": [
+        "双手握杠，双脚离地",
+        "手肘伸直",
+        "允许肩膀自然上提但不要完全失控",
+        "保持正常呼吸",
+        "到达目标时间后安全落地"
+      ],
+      "cues": [
+        "先从短时间开始",
+        "身体不要大幅摆动",
+        "落地前确认脚下空间"
+      ],
+      "commonMistakes": [
+        "憋气",
+        "肩部疼痛仍硬挂",
+        "跳下时失去平衡"
+      ],
+      "safetyNotes": [
+        "肩关节不稳定或悬垂疼痛者不做；不要抓不牢固物体"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～30秒",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "单杠",
+        "握力",
+        "悬垂"
+      ],
+      "regressions": [],
+      "progressions": [
+        "active-hang"
+      ]
+    },
+    {
+      "id": "active-hang",
+      "name": "主动悬垂",
+      "aliases": [
+        "肩胛悬垂保持"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "悬垂",
+        "肩胛下沉"
+      ],
+      "equipment": [
+        "单杠"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌",
+        "斜方肌下束"
+      ],
+      "secondaryMuscles": [
+        "前臂屈肌",
+        "前锯肌",
+        "菱形肌"
+      ],
+      "bodyParts": [
+        "背",
+        "肩带",
+        "前臂"
+      ],
+      "effects": [
+        "建立引体起始姿势",
+        "改善肩胛控制",
+        "增强握力"
+      ],
+      "steps": [
+        "抓杠悬垂，手肘保持伸直",
+        "将肩膀从耳旁轻轻向下拉",
+        "胸口略微抬起",
+        "保持身体稳定和正常呼吸",
+        "控制回到较放松位置"
+      ],
+      "cues": [
+        "手肘不能弯",
+        "脖子变长",
+        "幅度很小也正常"
+      ],
+      "commonMistakes": [
+        "把动作做成半个引体",
+        "过度挺胸摆动",
+        "耸肩失控"
+      ],
+      "safetyNotes": [
+        "肩部疼痛时停止；单杠必须牢固"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～20秒",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "单杠",
+        "引体进阶",
+        "肩胛控制"
+      ],
+      "regressions": [
+        "passive-hang"
+      ],
+      "progressions": [
+        "scapular-pull-up"
+      ]
+    },
+    {
+      "id": "scapular-pull-up",
+      "name": "肩胛引体",
+      "aliases": [
+        "直臂肩胛引体"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "垂直拉",
+        "肩胛下沉"
+      ],
+      "equipment": [
+        "单杠"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌",
+        "斜方肌下束"
+      ],
+      "secondaryMuscles": [
+        "菱形肌",
+        "前臂屈肌",
+        "前锯肌"
+      ],
+      "bodyParts": [
+        "背",
+        "肩带"
+      ],
+      "effects": [
+        "强化引体启动阶段",
+        "提高肩胛控制"
+      ],
+      "steps": [
+        "从悬垂开始，手肘伸直",
+        "把肩膀向下拉并略向后",
+        "身体上升数厘米",
+        "短暂停顿",
+        "控制回到起点"
+      ],
+      "cues": [
+        "只动肩胛，不弯肘",
+        "身体保持安静",
+        "每次都从可控位置开始"
+      ],
+      "commonMistakes": [
+        "弯肘",
+        "甩腿",
+        "大幅后仰",
+        "直接放松坠落"
+      ],
+      "safetyNotes": [
+        "肩前侧或肘部刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "5～10",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "单杠",
+        "引体进阶"
+      ],
+      "regressions": [
+        "active-hang"
+      ],
+      "progressions": [
+        "strict-pull-up"
+      ]
+    },
+    {
+      "id": "strict-pull-up",
+      "name": "严格正握引体向上",
+      "aliases": [
+        "引体向上",
+        "正手引体"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "垂直拉",
+        "肘屈曲"
+      ],
+      "equipment": [
+        "单杠"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌"
+      ],
+      "secondaryMuscles": [
+        "肱二头肌",
+        "肱肌",
+        "大圆肌",
+        "菱形肌",
+        "斜方肌",
+        "前臂"
+      ],
+      "bodyParts": [
+        "背",
+        "手臂",
+        "前臂"
+      ],
+      "effects": [
+        "增强相对拉力",
+        "增加背部宽度",
+        "提高握力和肩胛控制"
+      ],
+      "steps": [
+        "正握单杠，身体停止摆动",
+        "从手肘伸直的主动悬垂开始",
+        "先下沉肩胛，再将肘部拉向身体两侧",
+        "下巴明确越过杠",
+        "控制下降到起点"
+      ],
+      "cues": [
+        "胸口朝杠靠近",
+        "肘部向下拉",
+        "宁可少做也不缩短幅度"
+      ],
+      "commonMistakes": [
+        "摆腿蹬腿",
+        "底部不伸直",
+        "下巴仰上去但没过杠",
+        "快速坠落"
+      ],
+      "safetyNotes": [
+        "避免每天测试极限；肩肘刺痛时停止；新手可采用单次训练"
+      ],
+      "defaultPrescription": {
+        "sets": 6,
+        "reps": "1",
+        "restSeconds": 150,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "单杠",
+        "相对力量",
+        "复合动作"
+      ],
+      "regressions": [
+        "foot-assisted-pull-up",
+        "eccentric-pull-up"
+      ],
+      "progressions": [
+        "chin-up"
+      ]
+    },
+    {
+      "id": "chin-up",
+      "name": "反握引体向上",
+      "aliases": [
+        "反手引体"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "垂直拉",
+        "肘屈曲"
+      ],
+      "equipment": [
+        "单杠"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌",
+        "肱二头肌"
+      ],
+      "secondaryMuscles": [
+        "肱肌",
+        "大圆肌",
+        "前臂",
+        "菱形肌"
+      ],
+      "bodyParts": [
+        "背",
+        "手臂"
+      ],
+      "effects": [
+        "增强背部和肱二头肌力量",
+        "提高垂直拉能力"
+      ],
+      "steps": [
+        "反握单杠，手距约肩宽",
+        "从稳定悬垂开始",
+        "将肘部向下、向后拉",
+        "下巴越过杠",
+        "控制下降至手臂伸直"
+      ],
+      "cues": [
+        "掌心朝自己",
+        "胸口向上",
+        "身体不要甩动"
+      ],
+      "commonMistakes": [
+        "手距过窄导致腕不适",
+        "摆腿",
+        "半程动作",
+        "下降失控"
+      ],
+      "safetyNotes": [
+        "腕肘不适时改正握或中立握；不要反复冲极限"
+      ],
+      "defaultPrescription": {
+        "sets": 4,
+        "reps": "1～4",
+        "restSeconds": 150,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "肱二头肌",
+        "单杠"
+      ],
+      "regressions": [
+        "foot-assisted-pull-up",
+        "eccentric-pull-up"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "foot-assisted-pull-up",
+      "name": "脚辅助引体向上",
+      "aliases": [
+        "辅助引体",
+        "垫脚引体"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "垂直拉"
+      ],
+      "equipment": [
+        "单杠",
+        "牢固脚踏"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌"
+      ],
+      "secondaryMuscles": [
+        "肱二头肌",
+        "菱形肌",
+        "前臂"
+      ],
+      "bodyParts": [
+        "背",
+        "手臂"
+      ],
+      "effects": [
+        "用可控辅助练习完整引体幅度",
+        "增加垂直拉训练量"
+      ],
+      "steps": [
+        "在单杠下放牢固低踏台",
+        "双手握杠，一只或两只脚轻踩踏台",
+        "主动用背和手臂拉起",
+        "脚只提供刚好足够的帮助",
+        "控制下降到手臂伸直"
+      ],
+      "cues": [
+        "脚是辅助，不是把身体蹬飞",
+        "每次辅助程度尽量一致",
+        "完整幅度优先"
+      ],
+      "commonMistakes": [
+        "踏台滑动",
+        "用腿大量蹬起",
+        "身体摆动",
+        "底部不伸直"
+      ],
+      "safetyNotes": [
+        "踏台必须稳固防滑；不要使用滚轮椅或松动家具"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "5～8",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "单杠",
+        "引体进阶"
+      ],
+      "regressions": [
+        "scapular-pull-up"
+      ],
+      "progressions": [
+        "strict-pull-up"
+      ]
+    },
+    {
+      "id": "eccentric-pull-up",
+      "name": "离心引体向上",
+      "aliases": [
+        "负向引体",
+        "慢放引体"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "垂直拉",
+        "离心控制"
+      ],
+      "equipment": [
+        "单杠",
+        "牢固踏台"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌"
+      ],
+      "secondaryMuscles": [
+        "肱二头肌",
+        "肱肌",
+        "前臂",
+        "肩胛稳定肌"
+      ],
+      "bodyParts": [
+        "背",
+        "手臂"
+      ],
+      "effects": [
+        "强化引体下降阶段",
+        "帮助从0～2个进阶",
+        "提高全程控制"
+      ],
+      "steps": [
+        "借助踏台到达下巴高于杠的位置",
+        "脚离开支撑并稳定",
+        "用4～6秒缓慢下降",
+        "下降到手臂伸直",
+        "重新踩踏台回到顶部"
+      ],
+      "cues": [
+        "每次单独开始",
+        "速度尽量均匀",
+        "控制不住就结束"
+      ],
+      "commonMistakes": [
+        "跳起抓杠",
+        "前慢后直接坠落",
+        "下降时耸肩失控",
+        "踏台不稳"
+      ],
+      "safetyNotes": [
+        "使用牢固踏台；不要从高处跳下；肩肘疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "2～3",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "单杠",
+        "引体进阶",
+        "离心"
+      ],
+      "regressions": [
+        "foot-assisted-pull-up"
+      ],
+      "progressions": [
+        "strict-pull-up"
+      ]
+    },
+    {
+      "id": "single-arm-dumbbell-row",
+      "name": "单臂哑铃划船",
+      "aliases": [
+        "单手哑铃划船"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "水平拉",
+        "肩胛后缩"
+      ],
+      "equipment": [
+        "单只哑铃",
+        "牢固支撑面"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "背阔肌"
+      ],
+      "secondaryMuscles": [
+        "菱形肌",
+        "斜方肌中束",
+        "三角肌后束",
+        "肱二头肌"
+      ],
+      "bodyParts": [
+        "背",
+        "手臂"
+      ],
+      "effects": [
+        "增加背部厚度",
+        "训练左右侧独立发力",
+        "改善肩胛控制"
+      ],
+      "steps": [
+        "一手扶牢固支撑面，髋部向后推",
+        "另一手自然持哑铃下垂",
+        "保持背部平直和骨盆稳定",
+        "把肘部拉向后裤兜",
+        "顶端停顿后缓慢放下"
+      ],
+      "cues": [
+        "肘部朝髋部走",
+        "肩膀远离耳朵",
+        "身体不要扭开"
+      ],
+      "commonMistakes": [
+        "耸肩",
+        "用身体旋转甩起",
+        "只弯手臂",
+        "腰背弯曲"
+      ],
+      "safetyNotes": [
+        "支撑面必须稳固；腰或肩出现锐痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧12～20",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "哑铃",
+        "水平拉",
+        "单侧"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "two-arm-dumbbell-row",
+      "name": "双臂俯身哑铃划船",
+      "aliases": [
+        "双手哑铃划船"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "水平拉",
+        "髋铰链",
+        "躯干稳定"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌",
+        "菱形肌"
+      ],
+      "secondaryMuscles": [
+        "斜方肌中束",
+        "三角肌后束",
+        "肱二头肌",
+        "竖脊肌"
+      ],
+      "bodyParts": [
+        "背",
+        "手臂",
+        "下背"
+      ],
+      "effects": [
+        "增加背部厚度",
+        "训练髋铰链位的躯干耐力"
+      ],
+      "steps": [
+        "双手持哑铃站立",
+        "髋部向后推，躯干前倾，背部平直",
+        "双臂自然下垂",
+        "将两肘拉向身体后方",
+        "停顿后缓慢放下"
+      ],
+      "cues": [
+        "腹部收紧",
+        "肘部靠近身体",
+        "脖子保持中立"
+      ],
+      "commonMistakes": [
+        "上下耸肩",
+        "借腰甩动",
+        "蹲得过多",
+        "圆背"
+      ],
+      "safetyNotes": [
+        "下背先疲劳时减少前倾角或改做单臂划船"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背",
+        "哑铃",
+        "水平拉",
+        "复合动作"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "rear-delt-row",
+      "name": "后束哑铃划船",
+      "aliases": [
+        "宽肘划船",
+        "后束划船"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "水平拉",
+        "肩水平外展"
+      ],
+      "equipment": [
+        "一对轻哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌后束"
+      ],
+      "secondaryMuscles": [
+        "菱形肌",
+        "斜方肌中束",
+        "肱二头肌"
+      ],
+      "bodyParts": [
+        "肩后侧",
+        "上背"
+      ],
+      "effects": [
+        "增加三角肌后束和上背厚度",
+        "补充肩部平衡"
+      ],
+      "steps": [
+        "髋部向后推，躯干前倾",
+        "双臂下垂，掌心朝后或相对",
+        "肘部向外拉开约45～70°",
+        "上臂接近躯干平面时停顿",
+        "缓慢下降"
+      ],
+      "cues": [
+        "肘部带动",
+        "肩膀不要耸起",
+        "使用轻重量"
+      ],
+      "commonMistakes": [
+        "把动作做成直立划船",
+        "甩动身体",
+        "手腕弯曲",
+        "肘部抬得过高"
+      ],
+      "safetyNotes": [
+        "肩关节出现夹痛时减小肘部外展角度"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "12～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩后束",
+        "上背",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "prone-y-raise",
+      "name": "俯卧Y字抬臂",
+      "aliases": [
+        "Y字举臂"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "肩胛上回旋",
+        "肩屈曲"
+      ],
+      "equipment": [
+        "瑜伽垫",
+        "徒手或极轻负重"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "斜方肌下束"
+      ],
+      "secondaryMuscles": [
+        "前锯肌",
+        "三角肌后束",
+        "肩袖"
+      ],
+      "bodyParts": [
+        "上背",
+        "肩带"
+      ],
+      "effects": [
+        "增强肩胛稳定",
+        "改善过头动作控制"
+      ],
+      "steps": [
+        "俯卧，额头垫在毛巾上",
+        "双臂向斜前方伸成Y字",
+        "拇指朝上",
+        "轻轻抬起双臂和肩膀",
+        "短暂停顿后放下"
+      ],
+      "cues": [
+        "幅度小也可以",
+        "脖子放松",
+        "从肩胛骨发力"
+      ],
+      "commonMistakes": [
+        "仰头",
+        "耸肩",
+        "用腰挺起",
+        "重量过大"
+      ],
+      "safetyNotes": [
+        "肩部无痛范围内进行；不需要追求高幅度"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "8～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩胛稳定",
+        "上背",
+        "体态",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "prone-t-raise",
+      "name": "俯卧T字抬臂",
+      "aliases": [
+        "T字举臂"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "肩水平外展",
+        "肩胛后缩"
+      ],
+      "equipment": [
+        "瑜伽垫",
+        "徒手或极轻负重"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌后束",
+        "斜方肌中束"
+      ],
+      "secondaryMuscles": [
+        "菱形肌",
+        "肩袖"
+      ],
+      "bodyParts": [
+        "上背",
+        "肩后侧"
+      ],
+      "effects": [
+        "增强肩后侧和肩胛后缩控制"
+      ],
+      "steps": [
+        "俯卧，双臂向两侧展开成T字",
+        "拇指朝上或掌心朝地",
+        "收紧腹部",
+        "将双臂轻轻抬离地面",
+        "停顿后缓慢放下"
+      ],
+      "cues": [
+        "肩胛轻轻靠拢",
+        "脖子保持长",
+        "不要追求抬得很高"
+      ],
+      "commonMistakes": [
+        "耸肩",
+        "仰头",
+        "用腰反弓",
+        "动作过快"
+      ],
+      "safetyNotes": [
+        "肩前侧夹痛时减少幅度或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "8～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肩后束",
+        "上背",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-pullover",
+      "name": "仰卧哑铃上拉",
+      "aliases": [
+        "哑铃过头上拉"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "肩伸展",
+        "肩屈曲控制"
+      ],
+      "equipment": [
+        "单只哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌",
+        "胸大肌"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌长头",
+        "前锯肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "背",
+        "胸",
+        "肩"
+      ],
+      "effects": [
+        "训练过头范围控制",
+        "增加背阔肌与胸部刺激"
+      ],
+      "steps": [
+        "仰卧，双手托住一只哑铃置于胸上方",
+        "手肘保持轻微弯曲",
+        "收紧腹部，肋骨不要翻起",
+        "缓慢将哑铃移向头后",
+        "到肩部无痛范围后拉回"
+      ],
+      "cues": [
+        "腰部轻贴地面",
+        "手臂像固定杠杆",
+        "幅度由肩部舒适度决定"
+      ],
+      "commonMistakes": [
+        "腰部拱起",
+        "手肘大幅弯伸",
+        "下降过深",
+        "哑铃握持不稳"
+      ],
+      "safetyNotes": [
+        "谨防哑铃滑落；肩部不适者不做"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～15",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "背阔肌",
+        "胸",
+        "哑铃",
+        "过头动作"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-shrug",
+      "name": "哑铃耸肩",
+      "aliases": [
+        "耸肩"
+      ],
+      "category": "上肢拉",
+      "movementPatterns": [
+        "肩胛上提"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "斜方肌上束"
+      ],
+      "secondaryMuscles": [
+        "提肩胛肌",
+        "前臂屈肌"
+      ],
+      "bodyParts": [
+        "斜方肌",
+        "颈肩",
+        "前臂"
+      ],
+      "effects": [
+        "增强上斜方肌和持握能力"
+      ],
+      "steps": [
+        "双手持哑铃自然下垂",
+        "保持头颈中立",
+        "肩膀垂直向耳朵方向抬起",
+        "顶端停顿",
+        "缓慢下降"
+      ],
+      "cues": [
+        "只上下，不绕圈",
+        "手臂保持伸直",
+        "脖子放松"
+      ],
+      "commonMistakes": [
+        "肩膀绕圈",
+        "弯肘提起",
+        "头部前伸",
+        "用身体弹动"
+      ],
+      "safetyNotes": [
+        "颈肩疼痛或麻木时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "12～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "斜方肌",
+        "哑铃",
+        "握力"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "hammer-curl",
+      "name": "哑铃锤式弯举",
+      "aliases": [
+        "锤式弯举"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "肘屈曲"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "肱肌",
+        "肱桡肌"
+      ],
+      "secondaryMuscles": [
+        "肱二头肌",
+        "前臂屈肌"
+      ],
+      "bodyParts": [
+        "上臂",
+        "前臂"
+      ],
+      "effects": [
+        "增加手臂厚度",
+        "增强握持和肘屈力量"
+      ],
+      "steps": [
+        "站稳，掌心相对持哑铃",
+        "肘部贴近身体",
+        "弯曲肘部抬起哑铃",
+        "顶端停顿",
+        "控制下降到手臂接近伸直"
+      ],
+      "cues": [
+        "肘部像钉在身体两侧",
+        "身体不后仰",
+        "下降比抬起更慢"
+      ],
+      "commonMistakes": [
+        "甩腰",
+        "肘部向前跑",
+        "手腕弯曲",
+        "下降失控"
+      ],
+      "safetyNotes": [
+        "肘或腕出现锐痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱二头肌",
+        "前臂",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "supinated-curl",
+      "name": "哑铃旋后弯举",
+      "aliases": [
+        "哑铃弯举",
+        "正握? 非正握"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "肘屈曲",
+        "前臂旋后"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "肱二头肌"
+      ],
+      "secondaryMuscles": [
+        "肱肌",
+        "肱桡肌",
+        "前臂屈肌"
+      ],
+      "bodyParts": [
+        "上臂",
+        "前臂"
+      ],
+      "effects": [
+        "增加肱二头肌肌肉量",
+        "增强肘屈力量"
+      ],
+      "steps": [
+        "双手持哑铃，掌心向前或抬起时旋向前",
+        "肘部靠近身体",
+        "弯肘抬起哑铃",
+        "顶端挤压肱二头肌",
+        "缓慢下降"
+      ],
+      "cues": [
+        "小拇指略向上转",
+        "肩膀不要前移",
+        "全程控制"
+      ],
+      "commonMistakes": [
+        "身体后仰",
+        "肘部前移",
+        "手腕后折",
+        "只做上半程"
+      ],
+      "safetyNotes": [
+        "腕肘不适时改锤式弯举"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "8～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱二头肌",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "concentration-curl",
+      "name": "集中弯举",
+      "aliases": [
+        "单臂集中弯举"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "肘屈曲"
+      ],
+      "equipment": [
+        "单只哑铃",
+        "座椅"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "肱二头肌"
+      ],
+      "secondaryMuscles": [
+        "肱肌",
+        "前臂"
+      ],
+      "bodyParts": [
+        "上臂"
+      ],
+      "effects": [
+        "减少借力",
+        "提高肱二头肌收缩感"
+      ],
+      "steps": [
+        "坐稳，双脚分开",
+        "一侧肘部轻靠同侧大腿内侧",
+        "掌心向上持哑铃",
+        "弯肘将哑铃抬向肩部",
+        "缓慢放下，完成后换边"
+      ],
+      "cues": [
+        "上臂保持稳定",
+        "不要用大腿顶起手臂",
+        "底部接近伸直"
+      ],
+      "commonMistakes": [
+        "耸肩",
+        "身体扭转",
+        "肘部在大腿上滑动",
+        "动作过快"
+      ],
+      "safetyNotes": [
+        "使用稳固座椅；肘关节疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧10～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱二头肌",
+        "哑铃",
+        "单侧"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "overhead-triceps-extension",
+      "name": "单哑铃颈后臂屈伸",
+      "aliases": [
+        "过头臂屈伸",
+        "颈后臂屈伸"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "肘伸展"
+      ],
+      "equipment": [
+        "单只哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "肱三头肌长头"
+      ],
+      "secondaryMuscles": [
+        "肱三头肌外侧头",
+        "核心"
+      ],
+      "bodyParts": [
+        "上臂"
+      ],
+      "effects": [
+        "增加肱三头肌肌肉量",
+        "强化过头位肘伸力量"
+      ],
+      "steps": [
+        "双手托住一只哑铃举过头顶",
+        "腹部收紧，肋骨不外翻",
+        "弯肘让哑铃缓慢下降至头后",
+        "保持上臂相对固定",
+        "伸肘将哑铃推回"
+      ],
+      "cues": [
+        "肘部朝前",
+        "腰部不要后仰",
+        "只动前臂"
+      ],
+      "commonMistakes": [
+        "肘部大幅外张",
+        "塌腰",
+        "哑铃下降过深",
+        "动作失控"
+      ],
+      "safetyNotes": [
+        "哑铃握牢；肩或肘刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱三头肌",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "lying-triceps-extension",
+      "name": "仰卧哑铃臂屈伸",
+      "aliases": [
+        "地板碎颅者",
+        "仰卧臂屈伸"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "肘伸展"
+      ],
+      "equipment": [
+        "一对轻哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "肱三头肌"
+      ],
+      "secondaryMuscles": [
+        "前臂"
+      ],
+      "bodyParts": [
+        "上臂"
+      ],
+      "effects": [
+        "增加肱三头肌训练量",
+        "改善肘伸控制"
+      ],
+      "steps": [
+        "仰卧，双臂将哑铃举在胸上方",
+        "上臂保持相对竖直",
+        "弯肘把哑铃降向头部两侧",
+        "到可控深度后伸肘",
+        "回到起点"
+      ],
+      "cues": [
+        "只动前臂",
+        "哑铃落在头部两侧而非脸上",
+        "动作慢"
+      ],
+      "commonMistakes": [
+        "上臂前后摆动",
+        "重量过大",
+        "哑铃靠近脸",
+        "手腕折叠"
+      ],
+      "safetyNotes": [
+        "必须使用可完全控制的重量；避免哑铃砸到头脸"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "10～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱三头肌",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "triceps-kickback",
+      "name": "哑铃俯身臂后伸",
+      "aliases": [
+        "臂后伸",
+        "肱三头肌后踢"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "肘伸展"
+      ],
+      "equipment": [
+        "一对轻哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "肱三头肌"
+      ],
+      "secondaryMuscles": [
+        "三角肌后束",
+        "核心"
+      ],
+      "bodyParts": [
+        "上臂"
+      ],
+      "effects": [
+        "用轻重量训练肱三头肌末端收缩"
+      ],
+      "steps": [
+        "髋部向后推，躯干前倾",
+        "上臂贴近身体并抬至与躯干平行",
+        "伸直肘部将哑铃向后送",
+        "顶端停顿",
+        "弯肘回到约90°"
+      ],
+      "cues": [
+        "上臂保持不动",
+        "顶端夹紧肱三头肌",
+        "重量宁轻"
+      ],
+      "commonMistakes": [
+        "甩动手臂",
+        "上臂下垂",
+        "耸肩",
+        "用腰借力"
+      ],
+      "safetyNotes": [
+        "肘部不适时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "12～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "肱三头肌",
+        "哑铃",
+        "辅助动作"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "wrist-curl",
+      "name": "哑铃腕弯举",
+      "aliases": [
+        "腕屈曲"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "腕屈曲"
+      ],
+      "equipment": [
+        "一对轻哑铃",
+        "座椅"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "前臂屈肌群"
+      ],
+      "secondaryMuscles": [
+        "握力肌群"
+      ],
+      "bodyParts": [
+        "前臂",
+        "手腕"
+      ],
+      "effects": [
+        "增强前臂屈肌耐力",
+        "辅助握力"
+      ],
+      "steps": [
+        "坐下，将前臂放在大腿上，掌心朝上",
+        "手腕伸出膝盖边缘",
+        "让哑铃缓慢下降",
+        "屈腕将哑铃卷起",
+        "控制回落"
+      ],
+      "cues": [
+        "前臂始终贴住大腿",
+        "幅度舒适即可",
+        "重量轻"
+      ],
+      "commonMistakes": [
+        "用肘部抬起",
+        "快速弹动",
+        "腕部过度后伸",
+        "握得过紧"
+      ],
+      "safetyNotes": [
+        "手腕有旧伤或疼痛时不做"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "15～25",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "前臂",
+        "握力",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "reverse-wrist-curl",
+      "name": "反向哑铃腕弯举",
+      "aliases": [
+        "腕伸展",
+        "反腕弯举"
+      ],
+      "category": "手臂",
+      "movementPatterns": [
+        "腕伸展"
+      ],
+      "equipment": [
+        "一对轻哑铃",
+        "座椅"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "前臂伸肌群"
+      ],
+      "secondaryMuscles": [
+        "握力肌群"
+      ],
+      "bodyParts": [
+        "前臂",
+        "手腕"
+      ],
+      "effects": [
+        "增强前臂伸肌耐力",
+        "帮助平衡手腕周围肌群"
+      ],
+      "steps": [
+        "坐下，前臂放在大腿上，掌心朝下",
+        "手腕伸出膝盖边缘",
+        "缓慢放低哑铃",
+        "伸腕抬起哑铃",
+        "控制下降"
+      ],
+      "cues": [
+        "重量比腕弯举更轻",
+        "前臂固定",
+        "只动手腕"
+      ],
+      "commonMistakes": [
+        "甩动",
+        "幅度过大",
+        "用肘部借力",
+        "手指松脱"
+      ],
+      "safetyNotes": [
+        "手腕疼痛时停止；哑铃握牢"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "15～25",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "前臂",
+        "手腕",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "bodyweight-squat",
+      "name": "徒手深蹲",
+      "aliases": [
+        "自重深蹲"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "蹲",
+        "膝伸",
+        "髋伸"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收肌",
+        "腘绳肌",
+        "小腿",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀",
+        "核心"
+      ],
+      "effects": [
+        "学习蹲姿模式",
+        "增强下肢基础力量和活动度"
+      ],
+      "steps": [
+        "双脚约与肩同宽，脚尖自然外展",
+        "脚掌三点稳定踩地",
+        "髋膝同时弯曲下蹲",
+        "膝盖沿脚尖方向移动",
+        "站起时用脚掌推地并伸髋"
+      ],
+      "cues": [
+        "坐在两脚之间",
+        "膝盖跟着脚尖走",
+        "胸口自然抬起"
+      ],
+      "commonMistakes": [
+        "膝盖内扣",
+        "脚跟抬起",
+        "圆背",
+        "左右偏移",
+        "盲目追求深度"
+      ],
+      "safetyNotes": [
+        "只在无痛范围内下蹲；膝髋关节刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "徒手",
+        "基础动作"
+      ],
+      "regressions": [],
+      "progressions": [
+        "goblet-squat",
+        "tempo-squat"
+      ]
+    },
+    {
+      "id": "goblet-squat",
+      "name": "高脚杯深蹲",
+      "aliases": [
+        "抱铃深蹲"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "蹲",
+        "膝伸",
+        "髋伸"
+      ],
+      "equipment": [
+        "单只哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收肌",
+        "腘绳肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "增加下肢力量和肌肉量",
+        "用前置负重帮助保持躯干"
+      ],
+      "steps": [
+        "双手将一只哑铃竖直抱在胸前",
+        "双脚站稳，脚尖自然外展",
+        "吸气下蹲到稳定深度",
+        "膝盖沿脚尖方向移动",
+        "推地站起并呼气"
+      ],
+      "cues": [
+        "哑铃贴近胸口",
+        "脚掌三点踩稳",
+        "下降可控制2～3秒"
+      ],
+      "commonMistakes": [
+        "哑铃离身体过远",
+        "膝盖内扣",
+        "脚跟抬起",
+        "底部塌腰"
+      ],
+      "safetyNotes": [
+        "哑铃需握牢；膝腰关节疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "哑铃",
+        "复合动作"
+      ],
+      "regressions": [
+        "bodyweight-squat"
+      ],
+      "progressions": [
+        "dumbbell-front-squat",
+        "tempo-squat"
+      ]
+    },
+    {
+      "id": "dumbbell-front-squat",
+      "name": "双哑铃前蹲",
+      "aliases": [
+        "哑铃前架深蹲"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "蹲",
+        "膝伸",
+        "髋伸"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收肌",
+        "核心",
+        "腘绳肌"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀",
+        "核心"
+      ],
+      "effects": [
+        "提高下肢负荷",
+        "增强前侧核心稳定"
+      ],
+      "steps": [
+        "将两只哑铃放在肩前",
+        "肘部自然向前下方",
+        "双脚站稳并收紧核心",
+        "控制下蹲至无痛深度",
+        "推地站起"
+      ],
+      "cues": [
+        "哑铃靠近肩膀",
+        "肋骨不要外翻",
+        "两脚均匀发力"
+      ],
+      "commonMistakes": [
+        "哑铃悬在身体前方",
+        "身体左右歪",
+        "膝盖内扣",
+        "腰部过度前倾"
+      ],
+      "safetyNotes": [
+        "肩腕不适可改高脚杯深蹲；膝腰疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "哑铃",
+        "复合动作"
+      ],
+      "regressions": [
+        "goblet-squat"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "tempo-squat",
+      "name": "慢速深蹲",
+      "aliases": [
+        "节奏深蹲",
+        "停顿深蹲"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "蹲",
+        "离心控制"
+      ],
+      "equipment": [
+        "徒手或单只哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "在轻重量下增加训练刺激",
+        "提高动作控制和底部稳定"
+      ],
+      "steps": [
+        "采用徒手或高脚杯姿势",
+        "用3秒缓慢下降",
+        "底部停顿1秒且保持脚掌稳定",
+        "正常速度站起",
+        "重复时保持相同节奏"
+      ],
+      "cues": [
+        "慢下、稳停、快起但不弹",
+        "底部保持张力",
+        "深度以稳定为准"
+      ],
+      "commonMistakes": [
+        "底部完全放松",
+        "用膝盖弹起",
+        "计时不一致",
+        "为了深度塌腰"
+      ],
+      "safetyNotes": [
+        "关节疼痛时停止；不必在最深处长时间停留"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "8～15",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "控制",
+        "哑铃"
+      ],
+      "regressions": [
+        "bodyweight-squat"
+      ],
+      "progressions": [
+        "goblet-squat"
+      ]
+    },
+    {
+      "id": "wall-sit",
+      "name": "靠墙静蹲",
+      "aliases": [
+        "墙蹲"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "等长蹲",
+        "膝伸耐力"
+      ],
+      "equipment": [
+        "墙面"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "股四头肌"
+      ],
+      "secondaryMuscles": [
+        "臀大肌",
+        "小腿"
+      ],
+      "bodyParts": [
+        "大腿"
+      ],
+      "effects": [
+        "提高股四头肌局部耐力",
+        "提供低技术门槛的等长刺激"
+      ],
+      "steps": [
+        "背靠墙站立，双脚向前移",
+        "沿墙缓慢下滑到舒适角度",
+        "膝盖大致朝脚尖方向",
+        "背部贴墙并正常呼吸",
+        "到时间后用双腿站起"
+      ],
+      "cues": [
+        "不必强求大腿平行地面",
+        "双脚均匀受力",
+        "正常呼吸"
+      ],
+      "commonMistakes": [
+        "膝盖内扣",
+        "脚离墙太近",
+        "憋气",
+        "疼痛仍坚持"
+      ],
+      "safetyNotes": [
+        "膝关节疼痛时减小角度或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "20～45秒",
+        "restSeconds": 75,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "股四头肌",
+        "徒手",
+        "耐力"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "split-squat",
+      "name": "原地分腿蹲",
+      "aliases": [
+        "分腿蹲",
+        "静态弓步"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿蹲",
+        "膝伸",
+        "髋伸"
+      ],
+      "equipment": [
+        "徒手或哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收肌",
+        "腘绳肌",
+        "小腿",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "提高单腿力量和稳定性",
+        "改善左右差异"
+      ],
+      "steps": [
+        "双脚前后站立，后脚跟抬起",
+        "保持骨盆朝前",
+        "身体垂直向下",
+        "前脚全脚掌踩地",
+        "主要用前腿站起，完成后换边"
+      ],
+      "cues": [
+        "先练弱侧",
+        "前膝沿脚尖方向",
+        "轻扶墙可提高稳定"
+      ],
+      "commonMistakes": [
+        "步距过窄导致前膝压力大",
+        "身体左右晃",
+        "后腿蹬地过多",
+        "前脚跟抬起"
+      ],
+      "safetyNotes": [
+        "任何膝关节刺痛都应停止；初学者可扶墙"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧8～12",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "单侧",
+        "稳定"
+      ],
+      "regressions": [
+        "bodyweight-squat"
+      ],
+      "progressions": [
+        "reverse-lunge",
+        "bulgarian-split-squat"
+      ]
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "后撤弓步",
+      "aliases": [
+        "反向弓步",
+        "后退弓步"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿蹲",
+        "动态稳定"
+      ],
+      "equipment": [
+        "徒手或哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "内收肌",
+        "小腿",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "提高单腿力量、平衡和制动控制",
+        "对多数新手较易控制"
+      ],
+      "steps": [
+        "站立后将一只脚向后迈",
+        "前脚全脚掌保持踩地",
+        "双膝弯曲，身体垂直下降",
+        "用前脚推地回到站立",
+        "完成目标次数后换边"
+      ],
+      "cues": [
+        "后脚轻落地",
+        "前腿承担主要力量",
+        "每次回到完全站稳"
+      ],
+      "commonMistakes": [
+        "前膝内扣",
+        "步幅过小",
+        "后脚蹬地过多",
+        "身体左右扭转"
+      ],
+      "safetyNotes": [
+        "地面需防滑；膝痛时停止并改分腿蹲"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧8～12",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "单侧",
+        "平衡"
+      ],
+      "regressions": [
+        "split-squat"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "forward-lunge",
+      "name": "前跨弓步",
+      "aliases": [
+        "向前弓步"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿蹲",
+        "制动"
+      ],
+      "equipment": [
+        "徒手或哑铃"
+      ],
+      "difficulty": "中级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "小腿",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "训练向前制动和回推能力",
+        "增强单腿稳定"
+      ],
+      "steps": [
+        "站立后向前迈出一步",
+        "前脚全脚掌落地",
+        "控制身体下降",
+        "用前脚推地回到起点",
+        "换边或完成一侧后再换"
+      ],
+      "cues": [
+        "落地要安静",
+        "先站稳再下降",
+        "膝盖跟随脚尖"
+      ],
+      "commonMistakes": [
+        "砸地",
+        "前脚步幅过小",
+        "膝盖内扣",
+        "身体扑向前"
+      ],
+      "safetyNotes": [
+        "对膝关节制动要求高；膝痛或控制不足时优先后撤弓步"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧6～10",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "单侧",
+        "制动"
+      ],
+      "regressions": [
+        "reverse-lunge"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": "保加利亚分腿蹲",
+      "aliases": [
+        "后脚抬高分腿蹲"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿蹲"
+      ],
+      "equipment": [
+        "牢固低台",
+        "徒手或哑铃"
+      ],
+      "difficulty": "中级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收肌",
+        "腘绳肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "提高单腿力量和肌肉量",
+        "增加髋膝控制要求"
+      ],
+      "steps": [
+        "背对牢固低台，将一只脚背或脚尖放在台上",
+        "调整前脚位置并站稳",
+        "身体向下移动",
+        "前脚全脚掌持续着地",
+        "用前腿站起，完成后换边"
+      ],
+      "cues": [
+        "后腿只是支撑",
+        "前膝沿脚尖方向",
+        "开始时可扶墙"
+      ],
+      "commonMistakes": [
+        "台面过高",
+        "前脚离台太近",
+        "身体扭转",
+        "后腿用力过多"
+      ],
+      "safetyNotes": [
+        "仅在普通分腿蹲稳定无痛后进行；台面必须牢固"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧6～12",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "单侧",
+        "进阶"
+      ],
+      "regressions": [
+        "split-squat"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "step-up",
+      "name": "台阶踏步",
+      "aliases": [
+        "上台阶"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿蹲",
+        "登阶"
+      ],
+      "equipment": [
+        "牢固台阶或低凳"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "小腿",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀"
+      ],
+      "effects": [
+        "增强登阶能力和单腿力量",
+        "改善左右控制"
+      ],
+      "steps": [
+        "一只脚完整踩上牢固台阶",
+        "身体微微前倾",
+        "用台阶上的腿发力站上去",
+        "另一脚轻触台面",
+        "控制下降，完成后换边"
+      ],
+      "cues": [
+        "上方脚全脚掌踩稳",
+        "下方脚少蹬地",
+        "下降也要慢"
+      ],
+      "commonMistakes": [
+        "台阶过高",
+        "下方脚大力蹬地",
+        "膝盖内扣",
+        "直接跳下"
+      ],
+      "safetyNotes": [
+        "台阶必须稳固防滑；膝痛时降低高度或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧8～15",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腿",
+        "臀",
+        "单侧",
+        "功能性"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "双哑铃罗马尼亚硬拉",
+      "aliases": [
+        "RDL",
+        "哑铃硬拉"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋铰链",
+        "髋伸"
+      ],
+      "equipment": [
+        "一对哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腘绳肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "内收大肌",
+        "竖脊肌",
+        "背阔肌",
+        "前臂"
+      ],
+      "bodyParts": [
+        "大腿后侧",
+        "臀",
+        "下背",
+        "前臂"
+      ],
+      "effects": [
+        "增强臀腿后侧力量",
+        "学习髋铰链",
+        "改善跑跳和骑行发力基础"
+      ],
+      "steps": [
+        "双手持哑铃站立，膝盖微屈",
+        "臀部向后推，哑铃贴腿下降",
+        "背部保持自然平直",
+        "感到大腿后侧明显拉伸后停止",
+        "夹臀伸髋站起"
+      ],
+      "cues": [
+        "屁股向后找墙",
+        "小腿接近竖直",
+        "哑铃贴着腿走"
+      ],
+      "commonMistakes": [
+        "把动作做成深蹲",
+        "圆背",
+        "哑铃离身体太远",
+        "站起时过度后仰"
+      ],
+      "safetyNotes": [
+        "腰部锐痛时停止；重量轻也要保持控制"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀",
+        "腘绳肌",
+        "哑铃",
+        "髋铰链",
+        "复合动作"
+      ],
+      "regressions": [],
+      "progressions": [
+        "single-leg-romanian-deadlift"
+      ]
+    },
+    {
+      "id": "single-leg-romanian-deadlift",
+      "name": "单腿罗马尼亚硬拉",
+      "aliases": [
+        "单腿RDL",
+        "单腿硬拉"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿髋铰链",
+        "平衡"
+      ],
+      "equipment": [
+        "单只哑铃",
+        "可扶墙"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "臀大肌",
+        "腘绳肌"
+      ],
+      "secondaryMuscles": [
+        "臀中肌",
+        "小腿",
+        "核心",
+        "足部稳定肌"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿后侧",
+        "核心"
+      ],
+      "effects": [
+        "增强单腿后链力量",
+        "提高平衡与骨盆稳定"
+      ],
+      "steps": [
+        "单腿站立，支撑腿膝盖微屈",
+        "另一腿向后伸，躯干向前倾",
+        "骨盆保持朝向地面",
+        "到可控深度后夹臀站起",
+        "完成后换边"
+      ],
+      "cues": [
+        "身体和后腿像跷跷板",
+        "髋骨朝地面",
+        "可用空手轻扶墙"
+      ],
+      "commonMistakes": [
+        "骨盆向外翻",
+        "弓背",
+        "膝盖锁死",
+        "为了平衡快速落脚"
+      ],
+      "safetyNotes": [
+        "先徒手或3 kg；膝、髋、腰疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧8～12",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀",
+        "腘绳肌",
+        "单侧",
+        "平衡",
+        "哑铃"
+      ],
+      "regressions": [
+        "romanian-deadlift"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "sumo-dumbbell-deadlift",
+      "name": "相扑式哑铃硬拉",
+      "aliases": [
+        "宽站距哑铃硬拉"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋铰链",
+        "蹲",
+        "髋伸"
+      ],
+      "equipment": [
+        "一只或两只哑铃"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "臀大肌",
+        "内收肌",
+        "股四头肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "核心",
+        "前臂"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿内侧",
+        "大腿"
+      ],
+      "effects": [
+        "训练臀腿和内收肌",
+        "提供宽站距下肢复合动作"
+      ],
+      "steps": [
+        "双脚宽于肩，脚尖自然外展",
+        "哑铃位于身体中间",
+        "髋膝同时弯曲下沉",
+        "保持胸口自然抬起并握住哑铃",
+        "推地伸髋站起"
+      ],
+      "cues": [
+        "膝盖跟随脚尖",
+        "哑铃直上直下",
+        "脚掌全程稳定"
+      ],
+      "commonMistakes": [
+        "膝盖内扣",
+        "圆背",
+        "站距过宽",
+        "用手臂提起"
+      ],
+      "safetyNotes": [
+        "髋或膝不适时缩小站距或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀",
+        "大腿内侧",
+        "哑铃",
+        "复合动作"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "glute-bridge",
+      "name": "臀桥",
+      "aliases": [
+        "徒手臀桥"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋伸"
+      ],
+      "equipment": [
+        "瑜伽垫",
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿后侧"
+      ],
+      "effects": [
+        "学习臀部发力",
+        "增强髋伸力量",
+        "减少腰部代偿意识"
+      ],
+      "steps": [
+        "仰卧，双膝弯曲，双脚踩地",
+        "收紧腹部并轻微骨盆后倾",
+        "用脚掌推地夹臀抬髋",
+        "顶端身体从肩到膝成斜线",
+        "停顿后缓慢下降"
+      ],
+      "cues": [
+        "尾骨向膝盖方向卷",
+        "顶端夹臀",
+        "肋骨保持向下"
+      ],
+      "commonMistakes": [
+        "用腰过度挺起",
+        "脚离臀太远导致腘绳肌抽筋",
+        "膝盖外翻或内扣"
+      ],
+      "safetyNotes": [
+        "腰部挤压痛时减小高度；颈部不要承重"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "12～25",
+        "restSeconds": 75,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀",
+        "徒手",
+        "髋伸"
+      ],
+      "regressions": [],
+      "progressions": [
+        "weighted-glute-bridge",
+        "single-leg-glute-bridge"
+      ]
+    },
+    {
+      "id": "weighted-glute-bridge",
+      "name": "负重臀桥",
+      "aliases": [
+        "哑铃臀桥"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋伸"
+      ],
+      "equipment": [
+        "一只或两只哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿后侧"
+      ],
+      "effects": [
+        "增加臀肌训练量和髋伸力量"
+      ],
+      "steps": [
+        "仰卧，双脚踩地",
+        "将哑铃安全放在髋部并用手固定",
+        "收紧腹部",
+        "夹臀抬髋，顶端停1～2秒",
+        "控制下降"
+      ],
+      "cues": [
+        "哑铃放在髋骨下方软组织处并垫毛巾",
+        "顶端不挺腰",
+        "双脚均匀发力"
+      ],
+      "commonMistakes": [
+        "哑铃滚动",
+        "顶端腰椎过伸",
+        "脚位不对导致腿后侧抽筋",
+        "动作过快"
+      ],
+      "safetyNotes": [
+        "哑铃必须用手固定；腰痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "12～25",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀",
+        "哑铃",
+        "髋伸"
+      ],
+      "regressions": [
+        "glute-bridge"
+      ],
+      "progressions": [
+        "single-leg-glute-bridge"
+      ]
+    },
+    {
+      "id": "single-leg-glute-bridge",
+      "name": "单腿臀桥",
+      "aliases": [
+        "单脚臀桥"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿髋伸",
+        "骨盆稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "臀中肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿后侧",
+        "核心"
+      ],
+      "effects": [
+        "训练单侧臀部力量",
+        "提高骨盆稳定"
+      ],
+      "steps": [
+        "仰卧，一脚踩地，另一腿抬起或抱向胸口",
+        "收紧腹部",
+        "用支撑脚推地夹臀抬髋",
+        "保持两侧骨盆基本水平",
+        "控制下降，完成后换边"
+      ],
+      "cues": [
+        "支撑脚靠近臀部",
+        "骨盆不要歪",
+        "顶端夹臀"
+      ],
+      "commonMistakes": [
+        "身体旋转",
+        "用腰抬高",
+        "支撑脚离太远",
+        "动作幅度忽大忽小"
+      ],
+      "safetyNotes": [
+        "腘绳肌抽筋时调整脚位或改双腿臀桥"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧8～15",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀",
+        "单侧",
+        "徒手"
+      ],
+      "regressions": [
+        "glute-bridge"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "side-lying-leg-raise",
+      "name": "侧卧抬腿",
+      "aliases": [
+        "侧卧髋外展"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋外展"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "臀中肌"
+      ],
+      "secondaryMuscles": [
+        "臀小肌",
+        "阔筋膜张肌"
+      ],
+      "bodyParts": [
+        "臀部外侧",
+        "髋"
+      ],
+      "effects": [
+        "增强髋外展和骨盆稳定",
+        "辅助单腿控制"
+      ],
+      "steps": [
+        "侧卧，下侧腿可弯曲",
+        "上侧腿伸直，脚尖朝正前方",
+        "腹部轻收，骨盆叠放",
+        "缓慢抬起上侧腿约30～45°",
+        "控制放下，完成后换边"
+      ],
+      "cues": [
+        "脚跟略微领先脚尖",
+        "骨盆不要向后翻",
+        "幅度不必很大"
+      ],
+      "commonMistakes": [
+        "脚尖转向天花板",
+        "身体后仰",
+        "快速甩腿",
+        "抬得过高"
+      ],
+      "safetyNotes": [
+        "髋外侧刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧12～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀中肌",
+        "髋稳定",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "clamshell",
+      "name": "蚌式开合",
+      "aliases": [
+        "贝壳式"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋外旋"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "臀中肌后束",
+        "深层髋外旋肌"
+      ],
+      "secondaryMuscles": [
+        "臀小肌"
+      ],
+      "bodyParts": [
+        "臀部外侧",
+        "髋"
+      ],
+      "effects": [
+        "增强髋外旋控制",
+        "辅助膝盖朝向控制"
+      ],
+      "steps": [
+        "侧卧，髋膝弯曲，双脚叠在一起",
+        "保持骨盆不向后滚",
+        "双脚接触，抬起上侧膝盖",
+        "到骨盆开始想转动前停止",
+        "缓慢合拢，完成后换边"
+      ],
+      "cues": [
+        "像打开贝壳",
+        "骨盆叠放",
+        "幅度小也可以"
+      ],
+      "commonMistakes": [
+        "身体向后滚",
+        "双脚分开",
+        "用腰扭转",
+        "动作太快"
+      ],
+      "safetyNotes": [
+        "髋关节夹痛时减小幅度或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧12～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀中肌",
+        "髋外旋",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "fire-hydrant",
+      "name": "跪姿髋外展",
+      "aliases": [
+        "消防栓式",
+        "四点跪抬腿"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "髋外展",
+        "核心稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "臀中肌"
+      ],
+      "secondaryMuscles": [
+        "臀大肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀部外侧",
+        "核心"
+      ],
+      "effects": [
+        "增强髋外展和四点支撑稳定"
+      ],
+      "steps": [
+        "四点跪姿，双手在肩下，膝盖在髋下",
+        "腹部收紧",
+        "保持膝盖弯曲，将一侧大腿向外抬",
+        "骨盆不旋转",
+        "控制放下，完成后换边"
+      ],
+      "cues": [
+        "像头顶放着一杯水",
+        "只动髋关节",
+        "幅度可控"
+      ],
+      "commonMistakes": [
+        "腰部侧弯",
+        "骨盆翻开",
+        "耸肩",
+        "动作甩动"
+      ],
+      "safetyNotes": [
+        "膝下垫软垫；髋或腰疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧10～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "臀中肌",
+        "核心",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "双脚提踵",
+      "aliases": [
+        "站姿提踵"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "踝跖屈"
+      ],
+      "equipment": [
+        "徒手或一对哑铃",
+        "可扶墙"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腓肠肌"
+      ],
+      "secondaryMuscles": [
+        "比目鱼肌",
+        "足底小肌群"
+      ],
+      "bodyParts": [
+        "小腿",
+        "脚踝"
+      ],
+      "effects": [
+        "增加小腿肌肉量",
+        "增强踝关节蹬伸和局部耐力"
+      ],
+      "steps": [
+        "双脚约髋宽站立，必要时轻扶墙",
+        "双手持哑铃自然下垂",
+        "缓慢抬起脚跟",
+        "顶端停1秒",
+        "用2～3秒下降到脚跟轻触地面"
+      ],
+      "cues": [
+        "大脚趾根部持续压地",
+        "身体垂直上升",
+        "不要弹跳"
+      ],
+      "commonMistakes": [
+        "脚踝向外翻",
+        "快速弹动",
+        "顶端高度不足",
+        "身体前后晃"
+      ],
+      "safetyNotes": [
+        "跟腱或脚踝刺痛时停止；地面需防滑"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "15～25",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "小腿",
+        "哑铃",
+        "脚踝",
+        "耐力"
+      ],
+      "regressions": [],
+      "progressions": [
+        "single-leg-calf-raise"
+      ]
+    },
+    {
+      "id": "single-leg-calf-raise",
+      "name": "单腿提踵",
+      "aliases": [
+        "单脚提踵"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "单腿踝跖屈",
+        "平衡"
+      ],
+      "equipment": [
+        "徒手或单只哑铃",
+        "可扶墙"
+      ],
+      "difficulty": "初级",
+      "unilateral": true,
+      "primaryMuscles": [
+        "腓肠肌"
+      ],
+      "secondaryMuscles": [
+        "比目鱼肌",
+        "足底小肌群"
+      ],
+      "bodyParts": [
+        "小腿",
+        "脚踝"
+      ],
+      "effects": [
+        "提高单腿小腿力量与平衡",
+        "发现左右差异"
+      ],
+      "steps": [
+        "单腿站立，一手轻扶墙",
+        "另一脚离地",
+        "支撑脚缓慢提踵",
+        "顶端停顿",
+        "控制下降，完成后换边"
+      ],
+      "cues": [
+        "身体直上直下",
+        "脚踝不外翻",
+        "先弱侧"
+      ],
+      "commonMistakes": [
+        "借手臂拉起",
+        "快速弹动",
+        "脚踝歪斜",
+        "幅度越来越小"
+      ],
+      "safetyNotes": [
+        "跟腱或脚踝疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧10～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "小腿",
+        "单侧",
+        "平衡"
+      ],
+      "regressions": [
+        "standing-calf-raise"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "tibialis-raise",
+      "name": "靠墙胫骨前肌抬脚",
+      "aliases": [
+        "胫骨前肌训练",
+        "抬脚尖"
+      ],
+      "category": "下肢",
+      "movementPatterns": [
+        "踝背屈"
+      ],
+      "equipment": [
+        "墙面"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "胫骨前肌"
+      ],
+      "secondaryMuscles": [
+        "趾伸肌群"
+      ],
+      "bodyParts": [
+        "小腿前侧",
+        "脚踝"
+      ],
+      "effects": [
+        "增强踝背屈力量",
+        "平衡小腿前后侧肌群",
+        "辅助脚尖抬起控制"
+      ],
+      "steps": [
+        "背靠墙站立，双脚向前移少许",
+        "脚跟保持着地",
+        "抬起双脚脚尖",
+        "顶端停顿",
+        "缓慢放下"
+      ],
+      "cues": [
+        "只抬脚尖",
+        "脚跟不要离地",
+        "身体越远离墙越难"
+      ],
+      "commonMistakes": [
+        "膝盖大幅弯曲",
+        "脚跟抬起",
+        "快速弹动",
+        "脚踝向内外偏"
+      ],
+      "safetyNotes": [
+        "小腿前侧酸胀正常；脚踝刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "15～30",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "小腿前侧",
+        "脚踝",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "forearm-plank",
+      "name": "前臂平板支撑",
+      "aliases": [
+        "平板支撑"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗伸展",
+        "等长稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹横肌",
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "腹斜肌",
+        "臀大肌",
+        "前锯肌",
+        "肩带稳定肌"
+      ],
+      "bodyParts": [
+        "腹部",
+        "核心",
+        "肩带"
+      ],
+      "effects": [
+        "增强躯干抗伸展能力",
+        "提高俯卧撑和跑跳中的身体稳定"
+      ],
+      "steps": [
+        "前臂撑地，肘部在肩下",
+        "双脚后伸，身体成直线",
+        "收紧腹部和臀部",
+        "前臂主动压地并把地面推远",
+        "正常呼吸保持"
+      ],
+      "cues": [
+        "拉链从耻骨拉向肚脐",
+        "肋骨向下",
+        "肩膀不要塌陷"
+      ],
+      "commonMistakes": [
+        "塌腰",
+        "撅臀",
+        "憋气",
+        "肩膀耸起",
+        "时间过长导致动作变形"
+      ],
+      "safetyNotes": [
+        "肩或腰出现锐痛时停止；质量优先于时长"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "20～40秒",
+        "restSeconds": 75,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腹肌",
+        "核心",
+        "徒手",
+        "稳定"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "high-plank",
+      "name": "高位平板支撑",
+      "aliases": [
+        "直臂平板"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗伸展",
+        "肩带稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹横肌",
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "前锯肌",
+        "三角肌",
+        "肱三头肌",
+        "臀肌"
+      ],
+      "bodyParts": [
+        "核心",
+        "肩",
+        "手臂"
+      ],
+      "effects": [
+        "增强核心与肩胛稳定",
+        "为俯卧撑和登山者做准备"
+      ],
+      "steps": [
+        "双手在肩下，双脚后伸",
+        "手指张开并推地",
+        "收紧腹部和臀部",
+        "保持头肩髋踝成直线",
+        "正常呼吸"
+      ],
+      "cues": [
+        "把地面推远",
+        "腰带扣朝肋骨",
+        "身体不要前后移动"
+      ],
+      "commonMistakes": [
+        "塌腰",
+        "肩膀落在手后太多",
+        "耸肩",
+        "头部下垂"
+      ],
+      "safetyNotes": [
+        "腕部不适时改前臂平板；肩痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "20～40秒",
+        "restSeconds": 75,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "核心",
+        "肩胛稳定",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "side-plank",
+      "name": "侧平板支撑",
+      "aliases": [
+        "侧桥"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗侧屈",
+        "等长稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "腹斜肌"
+      ],
+      "secondaryMuscles": [
+        "腹横肌",
+        "臀中肌",
+        "肩带稳定肌"
+      ],
+      "bodyParts": [
+        "侧腹",
+        "核心",
+        "臀部外侧"
+      ],
+      "effects": [
+        "增强核心抗侧屈能力",
+        "提高单侧稳定和骨盆控制"
+      ],
+      "steps": [
+        "侧卧，肘部在肩下",
+        "双腿伸直叠放或前后错开",
+        "抬起髋部",
+        "保持耳肩髋踝大致成直线",
+        "正常呼吸，完成后换边"
+      ],
+      "cues": [
+        "地面侧肩膀推开地面",
+        "髋部保持高位",
+        "身体不向前后转"
+      ],
+      "commonMistakes": [
+        "肩膀塌陷",
+        "髋部下沉",
+        "身体旋转",
+        "憋气"
+      ],
+      "safetyNotes": [
+        "肩或腰侧锐痛时停止；可屈膝降低难度"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧20～35秒",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "侧腹",
+        "核心",
+        "单侧",
+        "稳定"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "dead-bug",
+      "name": "死虫式",
+      "aliases": [
+        "仰卧对侧伸展"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗伸展",
+        "四肢协调"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹横肌",
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "髋屈肌",
+        "腹斜肌"
+      ],
+      "bodyParts": [
+        "腹部",
+        "核心"
+      ],
+      "effects": [
+        "增强腰椎稳定和对侧协调",
+        "学习肋骨骨盆控制"
+      ],
+      "steps": [
+        "仰卧，双臂指向天花板，髋膝约90°",
+        "呼气让肋骨向下、腰部轻贴地面",
+        "缓慢伸出一条腿和对侧手臂",
+        "腰部不离地的范围内停下",
+        "收回后换边"
+      ],
+      "cues": [
+        "动作越慢越好",
+        "腰部贴地",
+        "先呼气再伸展"
+      ],
+      "commonMistakes": [
+        "腰部拱起",
+        "动作幅度过大",
+        "四肢快速甩动",
+        "憋气"
+      ],
+      "safetyNotes": [
+        "腰部不适时缩小幅度；不要用力把腰压到疼"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧8～12",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腹肌",
+        "核心",
+        "协调",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "bird-dog",
+      "name": "鸟狗式",
+      "aliases": [
+        "四点跪对侧伸展"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗旋转",
+        "抗伸展",
+        "协调"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "多裂肌",
+        "腹横肌"
+      ],
+      "secondaryMuscles": [
+        "臀大肌",
+        "肩带稳定肌",
+        "腹斜肌"
+      ],
+      "bodyParts": [
+        "核心",
+        "臀",
+        "肩带"
+      ],
+      "effects": [
+        "增强脊柱稳定和对侧协调",
+        "提高骨盆控制"
+      ],
+      "steps": [
+        "四点跪姿，手在肩下，膝在髋下",
+        "收紧腹部",
+        "伸出一侧手臂和对侧腿",
+        "保持骨盆水平，顶端停顿",
+        "收回并换边"
+      ],
+      "cues": [
+        "想象背上放一杯水",
+        "伸长而不是抬高",
+        "腰部保持中立"
+      ],
+      "commonMistakes": [
+        "腰部塌陷",
+        "骨盆旋转",
+        "腿抬得过高",
+        "耸肩"
+      ],
+      "safetyNotes": [
+        "膝下垫软垫；腰痛时减小幅度"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧8～12",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "核心",
+        "协调",
+        "徒手",
+        "抗旋转"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "reverse-crunch",
+      "name": "反向卷腹",
+      "aliases": [
+        "屈膝反向卷腹"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "脊柱屈曲",
+        "骨盆后倾"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "腹斜肌",
+        "髋屈肌"
+      ],
+      "bodyParts": [
+        "腹部"
+      ],
+      "effects": [
+        "增加腹直肌训练量",
+        "练习主动骨盆后倾"
+      ],
+      "steps": [
+        "仰卧，髋膝约90°",
+        "双手放身体两侧",
+        "先让腰部轻贴地面",
+        "呼气并用腹肌把骨盆卷向胸口",
+        "尾骨离地少量后缓慢放下"
+      ],
+      "cues": [
+        "裤腰带卷向肋骨",
+        "动作小而慢",
+        "腿只是随骨盆移动"
+      ],
+      "commonMistakes": [
+        "甩腿",
+        "滚到肩膀上",
+        "放下时腰部突然拱起",
+        "用手大力推地"
+      ],
+      "safetyNotes": [
+        "腰部疼痛时缩小幅度或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腹直肌",
+        "腹肌外形",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "dumbbell-crunch",
+      "name": "哑铃卷腹",
+      "aliases": [
+        "负重卷腹"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "脊柱屈曲"
+      ],
+      "equipment": [
+        "单只哑铃",
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "腹斜肌"
+      ],
+      "bodyParts": [
+        "腹部"
+      ],
+      "effects": [
+        "增加腹直肌厚度",
+        "提供可渐进负重的卷腹训练"
+      ],
+      "steps": [
+        "仰卧，膝盖弯曲，双脚踩地",
+        "将哑铃放在胸前并握稳",
+        "轻收下巴",
+        "呼气将胸骨卷向骨盆，抬起肩胛骨",
+        "顶端停顿后缓慢回落"
+      ],
+      "cues": [
+        "只抬肩胛骨",
+        "腹部缩短而非坐起来",
+        "下巴与胸之间留空间"
+      ],
+      "commonMistakes": [
+        "做成完整仰卧起坐",
+        "拉脖子",
+        "用惯性弹起",
+        "哑铃放在头后失控"
+      ],
+      "safetyNotes": [
+        "哑铃需固定在胸前；腰颈疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "12～20",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腹直肌",
+        "哑铃",
+        "腹肌外形"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "hanging-knee-raise",
+      "name": "悬垂屈膝举腿",
+      "aliases": [
+        "悬垂举膝"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "骨盆后倾",
+        "髋屈曲",
+        "悬垂"
+      ],
+      "equipment": [
+        "单杠"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "髋屈肌",
+        "腹斜肌",
+        "前臂",
+        "背阔肌"
+      ],
+      "bodyParts": [
+        "腹部",
+        "前臂",
+        "肩带"
+      ],
+      "effects": [
+        "增强腹直肌和悬垂核心能力",
+        "训练身体摆动控制"
+      ],
+      "steps": [
+        "抓杠并进入稳定主动悬垂",
+        "双腿并拢，膝盖弯曲",
+        "呼气将膝盖抬向胸口",
+        "顶端轻轻卷起骨盆",
+        "用2～3秒下降，身体稳定后再做下一次"
+      ],
+      "cues": [
+        "先停摆再抬腿",
+        "顶端卷骨盆",
+        "下降比抬起慢"
+      ],
+      "commonMistakes": [
+        "甩腿借力",
+        "只抬大腿不卷骨盆",
+        "肩膀完全松垮",
+        "下降失控"
+      ],
+      "safetyNotes": [
+        "肩肘悬垂无痛后再做；握力失效前结束"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "6～12",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腹肌",
+        "单杠",
+        "悬垂",
+        "进阶"
+      ],
+      "regressions": [
+        "reverse-crunch"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "hollow-body-tuck-hold",
+      "name": "屈膝中空保持",
+      "aliases": [
+        "团身中空支撑",
+        "Hollow hold"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗伸展",
+        "等长稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹直肌",
+        "腹横肌"
+      ],
+      "secondaryMuscles": [
+        "髋屈肌",
+        "腹斜肌"
+      ],
+      "bodyParts": [
+        "腹部",
+        "核心"
+      ],
+      "effects": [
+        "提高全身张力",
+        "强化腰椎抗伸展能力"
+      ],
+      "steps": [
+        "仰卧并屈膝",
+        "呼气将肋骨向下，让腰部贴地",
+        "抬起肩胛骨",
+        "双手向前伸，双脚可轻离地",
+        "保持正常呼吸"
+      ],
+      "cues": [
+        "下背贴地是第一优先",
+        "肩胛离地",
+        "难度靠腿伸远调节"
+      ],
+      "commonMistakes": [
+        "腰部拱起",
+        "憋气",
+        "脖子过度用力",
+        "动作过难"
+      ],
+      "safetyNotes": [
+        "腰部疼痛时让脚踩地或改死虫式"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "15～30秒",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "腹肌",
+        "核心",
+        "徒手",
+        "全身张力"
+      ],
+      "regressions": [
+        "dead-bug"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "heel-tap",
+      "name": "仰卧左右触踝",
+      "aliases": [
+        "脚跟触碰",
+        "侧向卷腹触踝"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "躯干侧屈"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹斜肌",
+        "腹直肌"
+      ],
+      "secondaryMuscles": [],
+      "bodyParts": [
+        "侧腹",
+        "腹部"
+      ],
+      "effects": [
+        "增加腹斜肌动态训练量",
+        "提高躯干侧屈控制"
+      ],
+      "steps": [
+        "仰卧屈膝，双脚踩地",
+        "抬起肩胛骨，双臂伸向身体两侧",
+        "向右侧弯躯干触碰右脚踝",
+        "回到中间后向左侧",
+        "保持腹部持续收紧"
+      ],
+      "cues": [
+        "肩胛保持离地",
+        "动作来自侧腹收缩",
+        "节奏平稳"
+      ],
+      "commonMistakes": [
+        "只是摆动手臂",
+        "下巴贴胸",
+        "腰部拱起",
+        "动作太快"
+      ],
+      "safetyNotes": [
+        "颈部疲劳明显时休息；腰痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧10～20",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "侧腹",
+        "腹肌",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "slow-mountain-climber",
+      "name": "慢速登山者",
+      "aliases": [
+        "控制登山跑"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗伸展",
+        "髋屈曲",
+        "肩带稳定"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹横肌",
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "髋屈肌",
+        "前锯肌",
+        "肩部",
+        "肱三头肌"
+      ],
+      "bodyParts": [
+        "核心",
+        "肩",
+        "髋"
+      ],
+      "effects": [
+        "增强动态核心和肩带稳定",
+        "提高对侧协调"
+      ],
+      "steps": [
+        "进入高位平板",
+        "把一侧膝盖缓慢拉向胸口",
+        "保持骨盆不旋转",
+        "脚尖轻放回去",
+        "交替进行"
+      ],
+      "cues": [
+        "慢比快更难",
+        "肩膀在手腕上方",
+        "髋部保持低而稳定"
+      ],
+      "commonMistakes": [
+        "屁股抬高",
+        "身体左右摇",
+        "脚砸地",
+        "追求速度"
+      ],
+      "safetyNotes": [
+        "腕部不适时改前臂版本；肩腰疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "每侧8～15",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "核心",
+        "肩胛稳定",
+        "动态",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "suitcase-hold",
+      "name": "单侧哑铃手提保持",
+      "aliases": [
+        "手提箱保持",
+        "单侧静态负重"
+      ],
+      "category": "核心",
+      "movementPatterns": [
+        "抗侧屈",
+        "握力"
+      ],
+      "equipment": [
+        "单只哑铃"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "腹斜肌",
+        "腰方肌"
+      ],
+      "secondaryMuscles": [
+        "前臂屈肌",
+        "臀中肌",
+        "斜方肌"
+      ],
+      "bodyParts": [
+        "侧腹",
+        "前臂",
+        "核心"
+      ],
+      "effects": [
+        "增强核心抗侧屈能力",
+        "训练握力和站姿稳定"
+      ],
+      "steps": [
+        "单手持哑铃自然下垂",
+        "双脚与髋同宽站稳",
+        "保持两肩和骨盆水平",
+        "收紧腹部并正常呼吸",
+        "到时间后换边"
+      ],
+      "cues": [
+        "身体不要向哑铃侧歪",
+        "头顶向上",
+        "空手自然放松"
+      ],
+      "commonMistakes": [
+        "耸肩",
+        "身体侧弯",
+        "憋气",
+        "哑铃贴腿借力"
+      ],
+      "safetyNotes": [
+        "哑铃握牢；腰侧或肩部疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "每侧20～40秒",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "核心",
+        "侧腹",
+        "握力",
+        "哑铃"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "scapular-push-up",
+      "name": "肩胛俯卧撑",
+      "aliases": [
+        "直臂肩胛俯卧撑"
+      ],
+      "category": "热身与活动",
+      "movementPatterns": [
+        "肩胛前伸后缩",
+        "肩带稳定"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "前锯肌"
+      ],
+      "secondaryMuscles": [
+        "斜方肌",
+        "胸小肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "肩带",
+        "上背"
+      ],
+      "effects": [
+        "激活前锯肌",
+        "改善俯卧撑肩胛控制",
+        "上肢热身"
+      ],
+      "steps": [
+        "进入高位平板或跪姿平板",
+        "手肘始终伸直",
+        "让胸口轻微下沉，肩胛靠拢",
+        "主动推地让上背略圆，肩胛分开",
+        "缓慢重复"
+      ],
+      "cues": [
+        "只动肩胛",
+        "把地面推远",
+        "幅度小而可控"
+      ],
+      "commonMistakes": [
+        "弯肘",
+        "塌腰",
+        "耸肩",
+        "头部前伸"
+      ],
+      "safetyNotes": [
+        "腕部不适可在墙面完成；肩痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "8～15",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "肩胛",
+        "前锯肌",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "hip-hinge-drill",
+      "name": "徒手髋铰链练习",
+      "aliases": [
+        "髋折叠练习",
+        "屁股找墙"
+      ],
+      "category": "热身与活动",
+      "movementPatterns": [
+        "髋铰链"
+      ],
+      "equipment": [
+        "墙面或徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "臀大肌",
+        "腘绳肌"
+      ],
+      "secondaryMuscles": [
+        "竖脊肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿后侧",
+        "髋"
+      ],
+      "effects": [
+        "学习罗马尼亚硬拉动作模式",
+        "提高髋部控制"
+      ],
+      "steps": [
+        "背对墙站立，离墙约一脚距离",
+        "膝盖微屈",
+        "保持背部自然平直",
+        "臀部向后触碰墙面",
+        "夹臀回到站立"
+      ],
+      "cues": [
+        "屁股向后，不是向下蹲",
+        "小腿基本竖直",
+        "肋骨与骨盆叠放"
+      ],
+      "commonMistakes": [
+        "蹲得太多",
+        "圆背",
+        "头部抬高",
+        "站起时后仰"
+      ],
+      "safetyNotes": [
+        "腰痛时停止；练习阶段无需负重"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "8～12",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "髋铰链",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "jumping-jack",
+      "name": "开合跳",
+      "aliases": [
+        "开合跳热身"
+      ],
+      "category": "心肺与爆发",
+      "movementPatterns": [
+        "全身协调",
+        "低级跳跃"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "小腿",
+        "三角肌"
+      ],
+      "secondaryMuscles": [
+        "臀中肌",
+        "心肺系统"
+      ],
+      "bodyParts": [
+        "全身"
+      ],
+      "effects": [
+        "提高心率",
+        "全身热身",
+        "练习基础节奏协调"
+      ],
+      "steps": [
+        "双脚并拢站立，双臂在身体两侧",
+        "轻跳将双脚分开，同时双臂举过头",
+        "再次轻跳回到起点",
+        "前脚掌轻柔落地",
+        "保持均匀节奏"
+      ],
+      "cues": [
+        "落地安静",
+        "膝盖朝脚尖方向",
+        "动作轻快但不乱"
+      ],
+      "commonMistakes": [
+        "落地砸地",
+        "膝盖内扣",
+        "耸肩",
+        "速度过快失控"
+      ],
+      "safetyNotes": [
+        "膝踝疼痛时改为开合步，不跳跃"
+      ],
+      "defaultPrescription": {
+        "sets": 2,
+        "reps": "30～60秒",
+        "restSeconds": 45,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "心肺",
+        "跳跃",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "pogo-jump",
+      "name": "原地踝跳",
+      "aliases": [
+        "Pogo跳",
+        "弹簧踝跳"
+      ],
+      "category": "心肺与爆发",
+      "movementPatterns": [
+        "踝弹性",
+        "低幅跳跃"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "小腿肌群",
+        "跟腱弹性系统"
+      ],
+      "secondaryMuscles": [
+        "足底肌群",
+        "核心"
+      ],
+      "bodyParts": [
+        "小腿",
+        "脚踝"
+      ],
+      "effects": [
+        "提高踝部快速弹性和落地刚度",
+        "为跑跳建立基础"
+      ],
+      "steps": [
+        "双脚约髋宽站立",
+        "膝盖保持轻微弯曲",
+        "主要通过脚踝做小幅快速跳跃",
+        "前脚掌轻柔触地",
+        "保持身体直立和节奏"
+      ],
+      "cues": [
+        "像弹簧一样小而快",
+        "落地安静",
+        "幅度不必高"
+      ],
+      "commonMistakes": [
+        "深蹲式大幅跳",
+        "膝盖内扣",
+        "脚踝外翻",
+        "疲劳后仍硬跳"
+      ],
+      "safetyNotes": [
+        "仅在膝踝无痛时做；跟腱疼痛立即停止"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "10～20次",
+        "restSeconds": 60,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "爆发",
+        "小腿",
+        "跳跃",
+        "性能"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "vertical-jump",
+      "name": "原地纵跳",
+      "aliases": [
+        "垂直跳",
+        "原地摸高"
+      ],
+      "category": "心肺与爆发",
+      "movementPatterns": [
+        "下肢爆发",
+        "跳跃",
+        "落地"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "初级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "臀大肌",
+        "股四头肌",
+        "小腿"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿",
+        "小腿"
+      ],
+      "effects": [
+        "提高下肢快速力量",
+        "练习起跳和落地控制"
+      ],
+      "steps": [
+        "双脚约髋肩宽站立",
+        "髋膝快速下沉并摆臂",
+        "用力伸髋、伸膝、蹬踝向上跳",
+        "落地时髋膝屈曲吸收冲击",
+        "完全站稳后再做下一次"
+      ],
+      "cues": [
+        "每次都当成单独高质量跳跃",
+        "落地安静",
+        "膝盖朝脚尖"
+      ],
+      "commonMistakes": [
+        "连续乱跳",
+        "落地膝内扣",
+        "只用小腿",
+        "疲劳后高度明显下降"
+      ],
+      "safetyNotes": [
+        "放在力量训练前；膝踝无痛且基础动作稳定后使用"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "3次",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "爆发",
+        "跳跃",
+        "性能",
+        "下肢"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "squat-jump",
+      "name": "深蹲跳",
+      "aliases": [
+        "蹲跳"
+      ],
+      "category": "心肺与爆发",
+      "movementPatterns": [
+        "下肢爆发",
+        "跳跃"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "股四头肌",
+        "臀大肌"
+      ],
+      "secondaryMuscles": [
+        "小腿",
+        "腘绳肌",
+        "核心"
+      ],
+      "bodyParts": [
+        "大腿",
+        "臀",
+        "小腿"
+      ],
+      "effects": [
+        "提高蹲起爆发力",
+        "增强快速伸髋伸膝能力"
+      ],
+      "steps": [
+        "站立后下蹲至浅到中等深度",
+        "快速向上跳起",
+        "空中保持身体稳定",
+        "落地时屈髋屈膝缓冲",
+        "站稳后重置"
+      ],
+      "cues": [
+        "重置后再跳",
+        "落地比起跳更重要",
+        "次数少、质量高"
+      ],
+      "commonMistakes": [
+        "落地膝内扣",
+        "连续反弹导致失控",
+        "疲劳后硬跳",
+        "深度忽大忽小"
+      ],
+      "safetyNotes": [
+        "仅在深蹲和纵跳无痛稳定后加入"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "3～5次",
+        "restSeconds": 90,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "爆发",
+        "跳跃",
+        "性能"
+      ],
+      "regressions": [
+        "vertical-jump"
+      ],
+      "progressions": []
+    },
+    {
+      "id": "broad-jump",
+      "name": "立定跳远",
+      "aliases": [
+        "原地跳远"
+      ],
+      "category": "心肺与爆发",
+      "movementPatterns": [
+        "水平爆发",
+        "跳跃",
+        "落地"
+      ],
+      "equipment": [
+        "徒手",
+        "开阔防滑地面"
+      ],
+      "difficulty": "中级",
+      "unilateral": false,
+      "primaryMuscles": [
+        "臀大肌",
+        "股四头肌"
+      ],
+      "secondaryMuscles": [
+        "腘绳肌",
+        "小腿",
+        "核心"
+      ],
+      "bodyParts": [
+        "臀",
+        "大腿",
+        "小腿"
+      ],
+      "effects": [
+        "提高水平推进力",
+        "练习双脚落地和制动"
+      ],
+      "steps": [
+        "双脚站稳并摆臂蓄力",
+        "髋膝下沉",
+        "快速向前上方跳出",
+        "双脚同时落地",
+        "屈髋屈膝吸收冲击并站稳"
+      ],
+      "cues": [
+        "跳出去，不是只往上",
+        "落地安静",
+        "每次重新走回起点"
+      ],
+      "commonMistakes": [
+        "落地脚前后错开",
+        "膝内扣",
+        "身体向前扑倒",
+        "空间不足"
+      ],
+      "safetyNotes": [
+        "确保前方无障碍；膝踝无痛且纵跳稳定后使用"
+      ],
+      "defaultPrescription": {
+        "sets": 3,
+        "reps": "3次",
+        "restSeconds": 120,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "爆发",
+        "跳跃",
+        "性能",
+        "水平推进"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "cat-cow",
+      "name": "猫牛式",
+      "aliases": [
+        "猫式牛式"
+      ],
+      "category": "热身与活动",
+      "movementPatterns": [
+        "脊柱屈伸"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "脊柱周围肌群"
+      ],
+      "secondaryMuscles": [
+        "腹肌",
+        "背肌"
+      ],
+      "bodyParts": [
+        "脊柱",
+        "躯干"
+      ],
+      "effects": [
+        "温和活动脊柱",
+        "帮助训练前感知脊柱位置"
+      ],
+      "steps": [
+        "四点跪姿",
+        "呼气，轻轻收腹并将背部拱起",
+        "吸气，缓慢让胸口前移并轻度伸展脊柱",
+        "在舒适范围内往返",
+        "动作与呼吸配合"
+      ],
+      "cues": [
+        "动作温和",
+        "从骨盆到胸椎逐段移动",
+        "颈部随脊柱自然移动"
+      ],
+      "commonMistakes": [
+        "用力甩腰",
+        "追求极限幅度",
+        "憋气",
+        "手肘弯曲"
+      ],
+      "safetyNotes": [
+        "腰颈锐痛时停止；不是治疗动作"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "6～10次",
+        "restSeconds": 30,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "脊柱活动",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "thoracic-rotation",
+      "name": "四点跪姿胸椎旋转",
+      "aliases": [
+        "穿针引线",
+        "胸椎旋转"
+      ],
+      "category": "热身与活动",
+      "movementPatterns": [
+        "胸椎旋转"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "胸椎旋转肌群"
+      ],
+      "secondaryMuscles": [
+        "腹斜肌",
+        "肩带肌群"
+      ],
+      "bodyParts": [
+        "上背",
+        "胸椎",
+        "肩"
+      ],
+      "effects": [
+        "改善胸椎旋转活动度",
+        "帮助过头和划船动作准备"
+      ],
+      "steps": [
+        "四点跪姿，一手放在后脑勺",
+        "将该侧肘部转向支撑手臂",
+        "再将肘部向天花板方向打开",
+        "骨盆尽量保持稳定",
+        "完成后换边"
+      ],
+      "cues": [
+        "旋转来自上背",
+        "骨盆不跟着翻",
+        "呼吸自然"
+      ],
+      "commonMistakes": [
+        "用腰部扭转",
+        "肘部硬拉",
+        "支撑肩塌陷",
+        "动作过快"
+      ],
+      "safetyNotes": [
+        "肩或脊柱疼痛时缩小幅度"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧6～10",
+        "restSeconds": 30,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "胸椎",
+        "活动度"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "doorway-chest-stretch",
+      "name": "门框胸肌拉伸",
+      "aliases": [
+        "门框拉胸"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "肩水平外展拉伸"
+      ],
+      "equipment": [
+        "门框"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "胸大肌",
+        "胸小肌"
+      ],
+      "secondaryMuscles": [
+        "三角肌前束"
+      ],
+      "bodyParts": [
+        "胸",
+        "肩前侧"
+      ],
+      "effects": [
+        "缓解上肢训练后胸肩紧绷感",
+        "维持肩前侧活动度"
+      ],
+      "steps": [
+        "前臂贴在门框上，肘约90°",
+        "同侧脚略向前",
+        "身体缓慢转离门框",
+        "感觉胸部牵拉后保持",
+        "换边重复"
+      ],
+      "cues": [
+        "肩膀向下",
+        "拉伸感在胸，不在肩关节深处",
+        "强度约3～4/10"
+      ],
+      "commonMistakes": [
+        "肘放得过高",
+        "猛转身体",
+        "肩膀向前顶",
+        "弹振"
+      ],
+      "safetyNotes": [
+        "肩前侧夹痛时降低肘部或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "胸",
+        "肩前侧"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "wall-lat-stretch",
+      "name": "墙面背阔肌拉伸",
+      "aliases": [
+        "扶墙拉背",
+        "背阔肌拉伸"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "肩屈曲拉伸",
+        "髋铰链"
+      ],
+      "equipment": [
+        "墙面"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "背阔肌"
+      ],
+      "secondaryMuscles": [
+        "大圆肌",
+        "胸大肌",
+        "肱三头肌长头"
+      ],
+      "bodyParts": [
+        "背",
+        "腋下",
+        "肩"
+      ],
+      "effects": [
+        "缓解背阔肌和过头动作后的紧绷感"
+      ],
+      "steps": [
+        "双手扶墙，手略高于肩",
+        "双脚后退",
+        "臀部向后坐，胸口朝地面下降",
+        "保持腰部不过度塌陷",
+        "感到腋下和背侧牵拉后保持"
+      ],
+      "cues": [
+        "屁股向后",
+        "肋骨不要外翻",
+        "呼吸到背部两侧"
+      ],
+      "commonMistakes": [
+        "强压胸口",
+        "塌腰",
+        "耸肩",
+        "手腕疼痛仍坚持"
+      ],
+      "safetyNotes": [
+        "肩关节夹痛时减小幅度"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "背阔肌",
+        "肩"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "cross-body-shoulder-stretch",
+      "name": "横臂肩后侧拉伸",
+      "aliases": [
+        "肩后束拉伸"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "肩水平内收拉伸"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "三角肌后束"
+      ],
+      "secondaryMuscles": [
+        "肩后囊",
+        "冈下肌"
+      ],
+      "bodyParts": [
+        "肩后侧"
+      ],
+      "effects": [
+        "缓解肩后侧紧绷感",
+        "维持肩水平内收活动度"
+      ],
+      "steps": [
+        "一侧手臂伸直横过胸前",
+        "另一手抱住上臂靠近肘部位置",
+        "轻轻将手臂拉向胸口",
+        "肩膀保持下沉",
+        "保持后换边"
+      ],
+      "cues": [
+        "拉肩后侧，不是扭身体",
+        "肩膀远离耳朵",
+        "力量温和"
+      ],
+      "commonMistakes": [
+        "拉住肘关节猛拽",
+        "身体旋转",
+        "耸肩",
+        "出现关节痛仍坚持"
+      ],
+      "safetyNotes": [
+        "肩关节深处刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "肩后侧"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "standing-quad-stretch",
+      "name": "站姿股四头肌拉伸",
+      "aliases": [
+        "站姿拉大腿前侧"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "膝屈曲拉伸",
+        "髋伸展"
+      ],
+      "equipment": [
+        "墙面可扶"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "股四头肌"
+      ],
+      "secondaryMuscles": [
+        "髂腰肌"
+      ],
+      "bodyParts": [
+        "大腿前侧"
+      ],
+      "effects": [
+        "缓解大腿前侧紧绷感",
+        "维持膝屈曲和髋伸展活动度"
+      ],
+      "steps": [
+        "一手扶墙站稳",
+        "弯曲另一侧膝盖并抓住脚踝或鞋面",
+        "两膝尽量靠近",
+        "轻收腹夹臀",
+        "脚跟缓慢靠近臀部，保持后换边"
+      ],
+      "cues": [
+        "骨盆微后倾",
+        "大腿垂直",
+        "不要硬拉脚"
+      ],
+      "commonMistakes": [
+        "腰部前顶",
+        "膝盖向外张开",
+        "扭转身体",
+        "拉到膝痛"
+      ],
+      "safetyNotes": [
+        "膝关节疼痛时停止；不要猛压脚踝"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "股四头肌"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "supine-hamstring-stretch",
+      "name": "仰卧腘绳肌拉伸",
+      "aliases": [
+        "仰卧拉大腿后侧"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "髋屈曲拉伸",
+        "膝伸展"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "腘绳肌"
+      ],
+      "secondaryMuscles": [
+        "小腿后侧"
+      ],
+      "bodyParts": [
+        "大腿后侧"
+      ],
+      "effects": [
+        "缓解大腿后侧紧绷感",
+        "维持髋屈曲活动度"
+      ],
+      "steps": [
+        "仰卧，一腿弯曲踩地",
+        "抬起另一腿，双手抱住大腿后侧",
+        "保持臀部贴地",
+        "缓慢伸直膝盖到舒适范围",
+        "保持后换边"
+      ],
+      "cues": [
+        "抓大腿而不是压膝盖",
+        "膝可微屈",
+        "脚尖轻轻朝自己"
+      ],
+      "commonMistakes": [
+        "强行锁膝",
+        "抬起臀部",
+        "拉到坐骨神经样麻痛",
+        "弹振"
+      ],
+      "safetyNotes": [
+        "出现麻木、电击感或锐痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "腘绳肌",
+        "大腿后侧"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "figure-four-stretch",
+      "name": "仰卧4字臀部拉伸",
+      "aliases": [
+        "梨状肌拉伸",
+        "4字拉伸"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "髋外旋拉伸"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "臀大肌",
+        "深层髋外旋肌"
+      ],
+      "secondaryMuscles": [
+        "臀中肌"
+      ],
+      "bodyParts": [
+        "臀",
+        "髋"
+      ],
+      "effects": [
+        "缓解臀部紧绷感",
+        "维持髋外旋活动度"
+      ],
+      "steps": [
+        "仰卧，双膝弯曲",
+        "将一侧脚踝放在另一侧大腿上形成4字",
+        "双手抱住下方大腿后侧",
+        "将下方腿缓慢拉向胸口",
+        "保持后换边"
+      ],
+      "cues": [
+        "上方膝盖自然向外",
+        "骨盆保持贴地",
+        "拉伸感在臀部"
+      ],
+      "commonMistakes": [
+        "用手猛压膝盖",
+        "身体扭转",
+        "膝关节疼痛仍坚持",
+        "拉得过猛"
+      ],
+      "safetyNotes": [
+        "膝或髋关节疼痛时减小幅度或停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "臀",
+        "髋"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "standing-hip-flexor-stretch",
+      "name": "站姿髋屈肌拉伸",
+      "aliases": [
+        "站姿弓步拉髋"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "髋伸展拉伸"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "髂腰肌",
+        "股直肌"
+      ],
+      "secondaryMuscles": [
+        "阔筋膜张肌"
+      ],
+      "bodyParts": [
+        "髋前侧",
+        "大腿根"
+      ],
+      "effects": [
+        "缓解髋前侧紧绷感",
+        "维持髋伸展活动度"
+      ],
+      "steps": [
+        "双脚前后站立",
+        "后腿膝盖微屈，后脚跟抬起",
+        "轻收腹并夹紧后腿侧臀部",
+        "骨盆整体缓慢前移",
+        "感觉后侧髋前方牵拉后保持，换边"
+      ],
+      "cues": [
+        "先收腹夹臀再前移",
+        "躯干直立",
+        "幅度小也有效"
+      ],
+      "commonMistakes": [
+        "腰部后仰",
+        "前膝压得太深",
+        "骨盆旋转",
+        "弹振"
+      ],
+      "safetyNotes": [
+        "髋或腰关节疼痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "髋屈肌",
+        "髋前侧"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "wall-calf-stretch",
+      "name": "靠墙小腿拉伸",
+      "aliases": [
+        "站姿腓肠肌拉伸"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "踝背屈拉伸"
+      ],
+      "equipment": [
+        "墙面"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "腓肠肌"
+      ],
+      "secondaryMuscles": [
+        "比目鱼肌"
+      ],
+      "bodyParts": [
+        "小腿",
+        "跟腱"
+      ],
+      "effects": [
+        "缓解小腿紧绷感",
+        "维持踝背屈活动度"
+      ],
+      "steps": [
+        "双手扶墙，一脚在前一脚在后",
+        "后脚尖朝前，脚跟踩地",
+        "后膝保持伸直",
+        "前膝弯曲，身体向墙靠近",
+        "保持后换边；后膝微屈可更多拉比目鱼肌"
+      ],
+      "cues": [
+        "后脚跟牢牢踩地",
+        "脚尖朝前",
+        "拉伸感在小腿后侧"
+      ],
+      "commonMistakes": [
+        "后脚外八过多",
+        "脚跟抬起",
+        "弹振",
+        "压到跟腱疼痛"
+      ],
+      "safetyNotes": [
+        "跟腱刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "小腿",
+        "脚踝"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "shoulder-circles",
+      "name": "肩部前后绕环",
+      "aliases": [
+        "肩关节绕环",
+        "手臂画圈"
+      ],
+      "category": "热身与活动",
+      "movementPatterns": [
+        "肩关节环绕",
+        "肩关节活动"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "三角肌"
+      ],
+      "secondaryMuscles": [
+        "肩袖肌群",
+        "斜方肌"
+      ],
+      "bodyParts": [
+        "肩",
+        "上背"
+      ],
+      "effects": [
+        "活动肩关节",
+        "为上肢推拉训练做准备"
+      ],
+      "steps": [
+        "站稳，手臂自然伸向身体两侧",
+        "从小圈开始向前绕肩",
+        "逐渐增大到舒适范围",
+        "完成10次后换方向",
+        "再向后绕10次"
+      ],
+      "cues": [
+        "动作慢而连续",
+        "不必追求最大幅度",
+        "保持肋骨收拢，颈部放松"
+      ],
+      "commonMistakes": [
+        "耸肩并让颈部持续紧张",
+        "为了画大圈而甩动腰部",
+        "速度过快"
+      ],
+      "safetyNotes": [
+        "肩关节出现夹痛、锐痛或麻木时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "前后各10次",
+        "restSeconds": 15,
+        "rir": 4,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "肩",
+        "活动度",
+        "徒手"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "first-exercise-ramp-set",
+      "name": "第一个动作轻量热身组",
+      "aliases": [
+        "递增热身组",
+        "动作预演组"
+      ],
+      "category": "热身与活动",
+      "movementPatterns": [
+        "动作预演"
+      ],
+      "equipment": [
+        "按当天首个动作选择"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "当天首个动作目标肌群"
+      ],
+      "secondaryMuscles": [
+        "核心"
+      ],
+      "bodyParts": [
+        "全身"
+      ],
+      "effects": [
+        "用低难度预演当天首个正式动作",
+        "检查动作轨迹并逐步进入正式强度"
+      ],
+      "steps": [
+        "选择比正式组更轻的重量或更容易的动作变式",
+        "完成约5～10次流畅重复",
+        "在不疲劳的前提下检查动作轨迹",
+        "稍作休息后再开始正式组"
+      ],
+      "cues": [
+        "结束时应感觉更熟练而不是疲劳",
+        "引体向上可先做肩胛下沉或少量轻松重复",
+        "深蹲和硬拉可使用正式重量的一小部分"
+      ],
+      "commonMistakes": [
+        "把热身组做到力竭",
+        "跳过动作检查直接使用正式强度",
+        "为了凑次数而动作变形"
+      ],
+      "safetyNotes": [
+        "热身组不追求疲劳；关节刺痛或锐痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "5～10次",
+        "restSeconds": 60,
+        "rir": 4,
+        "tempo": null
+      },
+      "tags": [
+        "热身",
+        "动作预演",
+        "递增组",
+        "全身"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "overhead-triceps-stretch",
+      "name": "头顶肱三头肌拉伸",
+      "aliases": [
+        "过头肱三头肌拉伸",
+        "头后臂屈伸拉伸"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "肩屈曲拉伸",
+        "肘屈曲拉伸"
+      ],
+      "equipment": [
+        "徒手"
+      ],
+      "difficulty": "入门",
+      "unilateral": true,
+      "primaryMuscles": [
+        "肱三头肌长头"
+      ],
+      "secondaryMuscles": [
+        "背阔肌上部"
+      ],
+      "bodyParts": [
+        "上臂后侧",
+        "腋下",
+        "肩"
+      ],
+      "effects": [
+        "缓解上臂后侧和腋下紧绷感",
+        "维持过头活动度"
+      ],
+      "steps": [
+        "一侧手臂举过头顶并弯曲肘部",
+        "让手落向上背部",
+        "另一只手轻扶肘部",
+        "轻轻把肘部向后、向内引导",
+        "腹部收紧，保持后换边"
+      ],
+      "cues": [
+        "肘部朝前",
+        "腰部不要后仰",
+        "力量温和并正常呼吸"
+      ],
+      "commonMistakes": [
+        "过度压肘",
+        "塌腰",
+        "耸肩",
+        "弹振"
+      ],
+      "safetyNotes": [
+        "肩关节疼痛或肘关节刺痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "每侧20～30秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "肱三头肌",
+        "上臂",
+        "肩"
+      ],
+      "regressions": [],
+      "progressions": []
+    },
+    {
+      "id": "prone-abdominal-stretch",
+      "name": "轻柔俯卧腹部伸展",
+      "aliases": [
+        "俯卧腹部拉伸",
+        "轻柔眼镜蛇式"
+      ],
+      "category": "拉伸",
+      "movementPatterns": [
+        "躯干伸展"
+      ],
+      "equipment": [
+        "瑜伽垫"
+      ],
+      "difficulty": "入门",
+      "unilateral": false,
+      "primaryMuscles": [
+        "腹直肌"
+      ],
+      "secondaryMuscles": [
+        "腹外斜肌",
+        "髋屈肌"
+      ],
+      "bodyParts": [
+        "腹部",
+        "躯干前侧"
+      ],
+      "effects": [
+        "在腹部训练后温和伸展躯干前侧",
+        "维持舒适的躯干伸展活动度"
+      ],
+      "steps": [
+        "俯卧在瑜伽垫上",
+        "双手或前臂撑在胸口两侧",
+        "缓慢抬起胸口",
+        "骨盆和下腹部保持贴地",
+        "只抬到腹部前侧有轻微伸展感"
+      ],
+      "cues": [
+        "幅度小而温和",
+        "不要强行伸直手臂",
+        "全程正常呼吸"
+      ],
+      "commonMistakes": [
+        "把腰折到最大",
+        "耸肩",
+        "用手猛推",
+        "屏住呼吸"
+      ],
+      "safetyNotes": [
+        "腰部挤压痛或腹部锐痛时停止"
+      ],
+      "defaultPrescription": {
+        "sets": 1,
+        "reps": "10～20秒",
+        "restSeconds": 15,
+        "rir": 2,
+        "tempo": null
+      },
+      "tags": [
+        "拉伸",
+        "腹部",
+        "核心",
+        "瑜伽垫"
+      ],
+      "regressions": [],
+      "progressions": []
+    }
+  ]
+}

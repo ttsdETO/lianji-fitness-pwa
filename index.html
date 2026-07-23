@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#f3f0e8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="练迹" />
+    <meta name="description" content="本地优先的训练、恢复与身体数据记录 PWA。" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icon.svg?v=3" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icon-192.png?v=3" />
+    <title>练迹 · 本地健身记录</title>
+  </head>
+  <body>
+    <div id="portrait-guard" role="status" aria-live="polite">
+      <span aria-hidden="true">↻</span>
+      <strong>请将手机转回竖屏</strong>
+      <small>练迹已固定为竖屏显示</small>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
